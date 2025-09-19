@@ -1,0 +1,4 @@
+	AuthType Basic
+	Authname "Titkot rejt"
+	AuthUserFile /xampp/htdocs/php1/.htpasswd
+	Require valid-user

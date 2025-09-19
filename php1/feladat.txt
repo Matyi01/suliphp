@@ -1,0 +1,3 @@
+bootstrap alap oldal, php tömbből betöltéskor mindig mást vesz ki
+
+
