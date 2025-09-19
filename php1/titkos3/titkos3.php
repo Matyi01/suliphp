@@ -1,6 +1,8 @@
 <?php
-    session_start()
-
+session_start();
+if (isset($_GET["action"]) && $_GET["action"] == "logout") {
+    session_destroy();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,7 +19,12 @@
     <h1>Privát oldal</h1>
     <?php
     if (isset($_POST["usernev"]) && $_POST["usernev"] == "akos" && isset($_POST["jelszo"]) && $_POST["jelszo"] == "1234") {
+        $_SESSION["user"] = $_POST["usernev"];
+        $_SESSION["jelszo"] = $_POST["jelszo"];
+    }
+    if (isset($_SESSION["user"]) && $_SESSION["user"] == "akos" && isset($_SESSION["jelszo"]) && $_SESSION["jelszo"] == "1234") {
         echo "<a href='" . $_SERVER['PHP_SELF'] . "'>Link</a>";
+        echo "<a href='" . $_SERVER['PHP_SELF'] . "?action=logout'class=\"btn btn-primary\" >Link</a>";
     } else {
         ?>
         <div class="container">
