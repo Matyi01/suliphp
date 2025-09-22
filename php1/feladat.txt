@@ -1,3 +1,9 @@
-bootstrap alap oldal, php tömbből betöltéskor mindig mást vesz ki
 
 
+
+php weboldal 
+két külön űrlap szöveg beviteli mezővel
+ha szöveg kerül bele az számozatlan a másik számozott listában jelenjen meg
+listában
+session változóban tárolva
++elem törlés
