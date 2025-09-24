@@ -1,9 +1,9 @@
 
 
+bottstrap formázás
 
-php weboldal 
-két külön űrlap szöveg beviteli mezővel
-ha szöveg kerül bele az számozatlan a másik számozott listában jelenjen meg
-listában
-session változóban tárolva
-+elem törlés
+4 tartalmi rész
+
+title -> meylik menüpontot hányzsor nézte meg a felhasználó
+
+
