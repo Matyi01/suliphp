@@ -1,9 +1,23 @@
 
 
-bottstrap formázás
+email cim gyűjtés sessionbe
 
-4 tartalmi rész
+domain számolása
 
-title -> meylik menüpontot hányzsor nézte meg a felhasználó
+
+--------------
+
+json objektum adatokkal
+(cim, szöveg, 1-2 kép) 3db
+valamint oldalsó kártyák adatai 
+(cím és listaképpen feldolgozható) 5db
+
+fő tartalmi rész betöltéskor (welcome!)
+
+tartalmakból navigációs rész (cím első 10 karaktere utána "...")
+
+minden menüpont váltáskor 3 db random jelenjen meg
+
+bootstrap
 
 
