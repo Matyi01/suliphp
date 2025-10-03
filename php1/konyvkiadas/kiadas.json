@@ -1,0 +1,2529 @@
+[
+	{
+		"ev": 2020,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Szobonya Erzsébet: Sapho 1.",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Bödőcs Tibor: Meg se kínáltak",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Berg Judit: Rumini Tükör-szigeten",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Szabó Zsolt: Vidám farm",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Tábori Andrea: Gesztesi - Egy élet ezer színe",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Benedek Elek: Benedek Elek legszebb mesekönyve",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Frei Tamás: 2015 a káosz éve és a magyar elit háborúja",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Szabó Zsolt: Unikornisok nagy mesekönyve",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Henaq, Victoria Eugenia: Mrs. Escobar",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Francis, Suzanne: Jégvarázs 2.",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Paulsen, Rüdiger: Húsvéti nyuszi és barátai",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Atwood, Margaret: Testamentumok",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Brallier, Max–Holgate, Douglas: Az utolsó srácok a földön",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Kinney, Jeff: Egy ropi naplója–A rideg való",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Kinney, Jeff: Egy ropi naplója–Az utolsó szalmaszál",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Kinney, Jeff: Egy ropi naplója–Négy fal között",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Russell, Rachel Renee: Egy Zizi naplója 1.–Mesék nem valami mesés életemről",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Smith, Wilbur: Királyok királya",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Steel, Danielle: Nemes harc",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Száraz Miklós György: Fájó Trianon",
+		"peldanyszam": 120000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Leiner Laura: A Szent Johanna Gimi. Kalauz 2.0",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Szobonya Erzsébet: Sapho. 2. r.",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Emlékező Magyarország, 1. (Gyurgyák János szerk.)",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Emlékező Magyarország, 2. (Gyurgyák János szerk.)",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Vérző Magyarország. Magyar írók Magyarország területéért  (Kosztolányi Dezső szerk.)",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Collins, Suzanne: Énekesmadarak és kígyók balladája",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Giordano, Paolo: Járvány idején",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Gólya viszi a fiát - mondókáskönyv (vál.: Orosné Galaczi Edit, Bacskai Csaba, Dávid Ildikó)",
+		"peldanyszam": 30000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Gyertek, gyertek gyerekek! - mondókáskönyv (vál.:  Orosné Galaczi Edit, Bacskai Csaba, Dávid Ildikó)",
+		"peldanyszam": 30000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Lawrence, Leslie L.: Donovan ezredes tréfája I.",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Lawrence, Leslie L.: Donovan ezredes tréfája II.",
+		"peldanyszam": 18000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Szobonya Erzsebet: A szárd szikla",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "R. Kelényi Angelika: Barcelona, Barcelona",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Vadadi Adrienn: Leszel a barátom?",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Pásztohy Panka: Pitypang és Lili",
+		"peldanyszam": 10005
+	},
+	{
+		"ev": 2020,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Benedek Elek: 100 Benedek Elek mese",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "May Szilvia: Országházi tekergő",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Streicher András: Itt a nyuszi",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Tóth Csaba Tamás: Tények és tévhitek - Állati X",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "King, Stephen: Éjszakai műszak",
+		"peldanyszam": 25000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "King, Stephen: Az Intézet",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "Potter, Beatrix: Nyúl Péter és barátai. Beatrix Potter összes meséje",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "Kinney, Jeff: Egy ropi naplója-A nagy kiruccanás",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "Kinney, Jeff: Egy ropi naplója-Pechszéria",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Leiner Laura: Bízz bennem - II. trilógia - Iskolák versenye első kötet",
+		"peldanyszam": 60000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Kepes András: A bolond hülye és az okos depressziós",
+		"peldanyszam": 40000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Karinthy Frigyes: Karácsonyi társasjáték",
+		"peldanyszam": 30000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Kosztolányi Dezső: Csodát nekem",
+		"peldanyszam": 30000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Szobonya Erzsebet: A végzet",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Dezső András: Magyar Kóla",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Berg Judit: Rumini",
+		"peldanyszam": 17000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Meseország mindenkié (szerk.: Nagy Boldizsár)",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Tomor Anita: Veled egy szigeten",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "3-5-8 perces téli mesék, Szimonidesz Hajnalka rajzaival (szerk.: Rét Viktória)",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Böjte Csaba, Csender Levente: Böjte Csaba füveskönyve",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Fábián Janka: Julie Könyvkuckója",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Bosnyák Viktória: A sirály a király?",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "3 éves lettem! - Kedvenc meséink a Pagony szerzőitől (szerk.:Győri Hanna)",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "99 magyar népmese - Jankovics Marcell rajzaival",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Koleszár Márta: Cigánymesék 4. fejtörők",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Leiner Laura: Maradj velem",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Rúzsa Magdolna, Ordódy Eszter: Angyalkert",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Szántó Dániel: Egy pap vallomása",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Kinney, Jeff: Egy ropi naplója 15. - Mély víz",
+		"peldanyszam": 30000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Steel, Danielle: Csendes éj",
+		"peldanyszam": 25000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Steel, Danielle: A kastély",
+		"peldanyszam": 25000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Steel, Danielle: Pegazus",
+		"peldanyszam": 25000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Follett, Ken: Egy új korszak hajnala - A katedrális előzménye",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Rowling, J. K.: Az Ickabog",
+		"peldanyszam": 17000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Nesbo, Jo: A birodalom",
+		"peldanyszam": 17000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Cook, Robin: Genezis",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Trump, Mary L.: Túl sok és sosem elég - Avagy hogyan teremtette meg a családom a világ legveszélyesebb emberét",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Martin, George R. R.: Trónok harca",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2020,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Moyes, Jojo: Áradó fény",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Böjte Csaba: Böjte Csaba füveskönyve - Örömhöz segítő gondolatok",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Szerb Antal: Utas és holdvilág",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Bartos Erika: Bogyó és Babóca. Hónapok meséi",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Dragomán György: Főzőskönyv",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Dragomán György: Főzőskönyv (utánnyomás)",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Ablak - Zsiráf (Mérei Ferenc - V. Binét Ágnes)",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Láng és a Szuperverdák - A dicsőség Lángja",
+		"peldanyszam": 27000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Mancs Őrjárat: A Kaland-öböl kalózai",
+		"peldanyszam": 27000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Mancs Őrjárat: Dinoszauruszok nyomában",
+		"peldanyszam": 27000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Mancs Őrjárat: Kosárlabda sztárok",
+		"peldanyszam": 27000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Mancs Őrjárat: Légimentésre fel!",
+		"peldanyszam": 27000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Mancs Őrjárat: Szuperhős kutyierő",
+		"peldanyszam": 27000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Steel, Danielle: Egy tökéletes élet",
+		"peldanyszam": 24950
+	},
+	{
+		"ev": 2021,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Lipinska, Blanka: 365 nap",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Mancs őrjárat: A kutyik megmentik a nyuszikat",
+		"peldanyszam": 13000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Peppa malac - Peppa húsvéti tojásvadászata",
+		"peldanyszam": 13000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Paz, Veronica: Dóra húsvéti nyuszis kalandja",
+		"peldanyszam": 13000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Kinney, Jeff: Egy ropi naplója-Lépjünk le!",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Kinney, Jeff: Egy ropi naplója-Régi szép idők",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Obertone, Laurent: Gerilla Barbárok ideje",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Smith, Keri: Nyírd ki ezt a könyvet",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Smith, Wilbur: Szellemtűz",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Tapia, Ivan – Linde, Montse: A nagy pénzrablás",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Leiner Laura: Higgy nekem",
+		"peldanyszam": 40000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Gárdonyi Géza: Ida regénye",
+		"peldanyszam": 25000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Szobonya Erzsebet: A kezdet",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Bartos Erika: Bogyó és Babóca. Hónapok meséi",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Eger,Edith Eva: A döntés",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Lőrincz L. László: Felhőharcosok, 1.",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Lőrincz L. László: Felhőharcosok, 2.",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Szobonya Erzsebet: Jesus Herrera",
+		"peldanyszam": 14000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Kepes András: A boldog hülye és az okos depressziós",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Fábián Janka: Cholera-napló",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Bartos Erika: Bogyó és Babóca az óvodában",
+		"peldanyszam": 11130
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Dániel András: A kuflik és a furcsa árnyék",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Mészöly Miklós: Nem felelt meg neki",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Varga Katalin: Gőgös Gúnár Gedeon",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Ablak - Zsiráf (Mérei Ferenc - V. Binét Ágnes)",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Bartos Erika: Bogyó és Babóca. Évszakos könyv",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Steel,Danielle: A tékozló fiú",
+		"peldanyszam": 24950
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "King,Stephen: Minél véresebb",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Rowling,J. K.: Harry Potter és a Titkok Kamrája, Mardekár (jubileumi kiadás)",
+		"peldanyszam": 18000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Rowling,J. K.: Harry Potter és a Titkok Kamrája, Griffendél (jubileumi kiadás)",
+		"peldanyszam": 18000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Coelho,Paulo: Az íjász",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Peterson, Jordan B.: Túl a renden - Újabb 12 szabály az élethez",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "King,Stephen: Carrie",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Smith,Wilbur – Addison,Corban: A holló szava",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Miler,Zdenek – Miler,Kateřina – Doskočilová,Hana: A kisvakond és a tél",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Miler,Zdenek – Miler,Kateřina – Doskočilová,Hana: A kisvakond és a tavasz",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Miler,Zdenek – Miler,Kateřina – Doskočilová,Hana: A kisvakond és a nyár",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Miler,Zdenek – Kateřina Miler – Michal Cernik: Egy hét a kisvakonddal",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Steel,Danielle: Áldás álruhában",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Miler,Zdenek: Nagy csúszkálás a kisvakonddal",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Miler,Zdenek: Kukucskálás a kisvakonddal",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Kinney,Jeff: Egy ropi naplója",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Kinney,Jeff: Egy ropi naplója-Rodrick a király",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Kinney,Jeff: Egy ropi naplója-dupla para",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Hernády Zsolt: Kajla 7határban",
+		"peldanyszam": 50000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Bartos Erika: Bogyó és Babóca - csengettyűk",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Bartos Erika: Brúnó Budapesten - Budapest környéke",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Szobonya Erzsebet: Légy(ott) Isztambulban",
+		"peldanyszam": 14000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Martens, Sheila (Jánószky Beáta) : Aranykalitka",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Martens, Sheila (Jánószky Beáta): Nathifa",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Meyerin, Jud (Megyeri Judt): A múlt bűnei",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Scott, Julie (Nemes Judit): Az ezerkettedik éjszaka",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Scott, Julie (Nemes Judit): Helga története",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Swann, Aneka (Nemes István): Luxushajó",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "Mancs őrjárat - A film - Mesekönyv a mozifilm alapján",
+		"peldanyszam": 19000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "Nesbo, Jo: A féltékenység-szakértő",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "King, Stephen: Lisey történet",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "Rowling, J. K.: Harry Potter és a bölcsek köve",
+		"peldanyszam": 13000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "100 Ezópusz mese [átd. Lövei Mária és Vajda Réka]",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "Escobar, Roberto Sendoya: Escobar fia: az elsőszülött",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "King, Stephen: Az írásról",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "Kinney, Jeff: Egy ropi naplója-a harmadik kerék",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "Moyes, Jojo: Az utolsó szerelmes levél",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Babits Mihály: A gólyakalifa",
+		"peldanyszam": 30000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Náray Tamás: Volt egyszer egy varrodám",
+		"peldanyszam": 30000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Szobonya Erzsebet: Az Arab öröksége",
+		"peldanyszam": 25000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Dezső András: Fedősztori: kémek és titkos játszmák Magyarországon",
+		"peldanyszam": 25000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Kőhalmi Zoltán: Az utolsó 450 év",
+		"peldanyszam": 25000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Bartos Erika: Mesék a pöttyös házból",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Eger, Edith Eva: A döntés",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Ugron Zsolna: Nincs egy férfi - Írások és firkák",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Vrtko, Vujity: Aloha",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Bosnyák Viktória: A sirály a király?",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Müller Péter: Anyám titkos könyve",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "100 állatmese: szórakoztató és tanulságos történetek kicsiknek és nagyoknak",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Alex suli",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Bányainé Nagy Judit: Nem akarok beleszólni",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Bartos Erika: Mesék a pöttyös házból",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Karády Anna: A füredi földesúr",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Pásztohy Panka: Pitypang játszik",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "King, Stephen: Billy Summers",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Hawkins, Paula: Lassan izzó tűz",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Lipinska, Blanka: 365 nap 2.",
+		"peldanyszam": 13000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Andersen, Hans Christian: A kis gyufaárus lány",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Osman, Richard: A férfi, aki kétszer halt meg",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Potter, Beatrix: Nyúl Péter adventi kalendáriuma",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Smith, Wilbur: A háború öröksége",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2021,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Steel, Danielle: Gyerekjáték",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Bödőcs Tibor: Mulat a manézs",
+		"peldanyszam": 60000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Papp Gergő, Kajdi Csaba: A nagy Cyla sztori",
+		"peldanyszam": 30000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Krúdy Gyula: Szindbád, az álmok hajósa",
+		"peldanyszam": 30000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Bosnyák Viktória: A sirály a király?",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Fábián Janka: Az Anna-bál szerelmesei",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Náray Tamás: Volt egyszer egy varrodám",
+		"peldanyszam": 19000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Berg Judit: Rumini",
+		"peldanyszam": 18000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Jakupcsek Gabriella: Alul semmi?",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Lawrence, Leslie L.: A jakfarkas zászló",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Marék Veronika: Boribon karácsonya",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Bán Mór: Hunyadi: a förgeteg hírnöke",
+		"peldanyszam": 14200
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Tomor Anita: Imádlak Los Angeles",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Green, Anne L.: Toszkán rejtély",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Boldizsár Ildikó: Amália álmai",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Bródy János: Saját hangon",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Eger, Edith Eva: A döntés",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Fejős Éva: Athén, végállomás",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Kepes András: A boldog hülye és az okos depressziós",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Leiner Laura: Állj mellém",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Varga Katalin: Gőgös Gúnár Gedeon",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Jákób és Ézsau (ill. Kort, Kees de ill.)",
+		"peldanyszam": 31000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Kinney, Jeff: Egy ropi naplója: a nagy dobás",
+		"peldanyszam": 30000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Escobar, Juan Pablo: Mr. Escobar - Apám titkai",
+		"peldanyszam": 30000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Rossmann, Dirk: A polip kilencedik karja: klímakatasztrófa vagy világkormány",
+		"peldanyszam": 25000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Lipinska, Blanka: Még 365 nap",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Nesbo, Jo: A patkánysziget",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Házi kedvenceink (szerk. Brezvai Edit)",
+		"peldanyszam": 13029
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Russell, Rachel Renée: Zizi naplója: turné",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Kinney, Jeff: Rowley Jefferson Bitang Para rémtörténeteti",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Steel, Danielle: Kém",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Kinney, Jeff: Egy ropi naplója- Romhalmaz",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Szobonya Erzsebet: Az Arab királysága",
+		"peldanyszam": 25000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Náray Tamás: Anyám szerint",
+		"peldanyszam": 25000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Bartos Erika: Bogyó és Babóca - Mesék a pöttyös házból",
+		"peldanyszam": 21000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Grecsó Krisztián: Valami népi",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Bartos Erika: Balaton-felvidék - Brúnó a Balatonon",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Leslie L. Lawrence: Szemiramisz elefántjai",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Fábián Janka: Árvízi napló",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Green, Anne L. (Líbor Erzsébet): Egyszerűen bonyolult",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Jankovics Andrea: Óvodai emlékkönyvem",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Ablak - Zsiráf (Mérei Ferenc - V. Binét Ágnes)",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Nádas Péter: Rémtörténetek",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Petőfi Sándor összes versei",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "King, Stephen: Később",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "King, Stephen: Tűzgyújtó",
+		"peldanyszam": 19000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Kinney, Jeff: Egy ropi naplója - Az utolsó szalmaszál",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Kinney, Jeff: Egy ropi naplója - Hóháború",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Owens, Delia: Ahol a folyami rákok énekelnek",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Smith, Wilbur - Chadbourn, Mark: Az új királyság",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Steel, Danielle: Erkölcsi iránytű",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Steel, Danielle: Számjáték",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Deres Kornélia: Emma és az elefánt",
+		"peldanyszam": 50000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Mán-Várhegyi Réka: Kókusz Franci, a fodrász titkosügynök 1.",
+		"peldanyszam": 50000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Mán-Várhegyi Réka: Kókusz Franci, a fodrász titkosügynök 2.",
+		"peldanyszam": 50000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Sepsi László: Gogol, a szemétmágus",
+		"peldanyszam": 50000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Götz Eszter: Kajla a múzeumok nyomában",
+		"peldanyszam": 25000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Bartos Erika: Bogyó és Babóca - Hónapok meséi",
+		"peldanyszam": 18000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Karády Anna: A füredi gyermek",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Bartos Erika: Bogyó és Babóca - Csengettyűk",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Tomor Anita: Szeretlek Hawaii!",
+		"peldanyszam": 10500
+	},
+	{
+		"ev": 2022,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "100 Grimm-mese",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Nemes Nagy Ágnes: Szilánkos fényjelek",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "Owens, Delia: Ahol a folyami rákok énekelnek",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "Steel, Danielle: Becses ajándékok",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "Steel, Danielle: Country",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "Eger, Edith Eva: A döntés",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "Hoover, Colleen: Velünk véget ér",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "Hoover, Colleen: Ugly Love - Csúf szerelem",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Bartos Erika: Brúnó a Balatonon - Déli part",
+		"peldanyszam": 25000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Fábián Janka: A szabadság szerelmesei",
+		"peldanyszam": 23000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Bosnyák Viktória: A sirály a király?",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Szobonya Erzsebet: Álszemérem",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Fable, Vavyan (Molnár Éva): Az élet ócska örömei",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Bartos Erika: Brúnó a Balatonon",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Lawrence, Leslie L.: Bolondok kolostora",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Nyerges Attila: Egy ismerős arc",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Berg Judit: Rumini Zúzmaragyarmaton",
+		"peldanyszam": 13350
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Marék Veronika: Boribon karácsonya",
+		"peldanyszam": 13160
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Berg Judit - Agócs Írisz: Maszat karácsonya",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Anne L. Green (Libor Erzsébet): Keserűen édes",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Berg Judit: Rumini és a látóüveg",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Csukás István: A téli tücsök meséi",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Edith Eva Eger: A döntés",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Laár András: Laáramlás",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Lakatos Levente: Tönkreteszlek",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Majzik Ilona: Sündörgő",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Nádas Péter: Berlini szürke",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Simon Éva: Furfangos mesék az állatokról",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Hoffmann, E.T.A.: Diótörő és egérkirály",
+		"peldanyszam": 40020
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Kinney, Jeff: Egy ropi naplója 17. - Kiborul a bili",
+		"peldanyszam": 30000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Rossmann, Dirk - Hoppe, Ralf: A polip haragja",
+		"peldanyszam": 16000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Kinney, Jeff:  Egy ropi naplója. A rideg való",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Kinney, Jeff:  Egy ropi naplója. Rodrick a király",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Owens, Delia: Ahol a folyami rákok énekelnek",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Potter, Beatrix: Nyúl Péter világa - Mesék minden évszakra",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Steel, Danielle : Rejtőzködve",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Steel, Danielle: Blue",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Szutyejev, Vlagyimir: Vidám mesék",
+		"peldanyszam": 13350
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Hoover, Colleen: All Your Perfects - Minden tökéletesed",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Potter, Beatrix: Nyúl Péter adventi kalendáriuma",
+		"peldanyszam": 10240
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Jonasson, Jonas: A próféta és a hülye",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Kinney, Jeff:  Egy ropi naplója. A rideg való",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Martin, George R. R.: Tűz és vér",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Steel, Danielle: Apa lányai",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2022,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Steel, Danielle: Az esküvői ruha",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Anne L. Green (Libor Erzsébet): Hazatérés Toszkánába",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Balog-Tóth Bernadett: Hanga, a hangya és barátai nagy kalandja. A hóember",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Bartos Erika: Brúnó Budapesten - Buda tornyai",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Bartos Erika: Brúnó Budapesten - Pest szíve",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Bartos Erika: Duna - Brúnó Budapesten 5.",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Berg Judit: Rumini kincsei",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 1,
+		"nemzetiseg": "ma",
+		"mu": "Fekete István: Vuk",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Ferguson, Sarah: A szív iránytűje",
+		"peldanyszam": 30000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Hoover, Colleen: Minden tökéletesed",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Hoover, Colleen: Ugly Love - Csúf szerelem",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Kinney, Jeff:  Egy ropi naplója. Négy fal között",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Kinney, Jeff: Egy ropi naplója. Kutya egy idő",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Hoover, Colleen: Verity - Sötét titkok vonzásában!",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Martin, George R. R. – García, Jr. Elio M. – Antonsson, Linda: A sárkány felemelkedése",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 1,
+		"nemzetiseg": "kf",
+		"mu": "Owens, Delia: Ahol a folyami rákok énekelnek",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Leiner Laura: 40 nyári nap",
+		"peldanyszam": 50000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Bartos Erika: Brúnó a Balatonon 3. Nyugati karéj",
+		"peldanyszam": 25000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Náray Tamás: Barbara - A végzet",
+		"peldanyszam": 25000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Marék Veronika: Boribon a játszótéren",
+		"peldanyszam": 15080
+	},
+	{
+		"ev": 2023,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Dezső András: Nagyfőnök",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Karády Anna: Zserbó. A múlt tengerén",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Bartos Erika: A csigaház kincsei",
+		"peldanyszam": 13805
+	},
+	{
+		"ev": 2023,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Szobonya Erzsebet: Védelem",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Bartos Erika: A csigaház kincsei",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Berg Judit: Rumini",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Leslie L. Lawrence: Domingos és a halál angyala",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 2,
+		"nemzetiseg": "ma",
+		"mu": "Szily László: Idegtartás",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Harry herceg: Tartalék",
+		"peldanyszam": 25000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Hoover, Colleen: Velünk véget ér",
+		"peldanyszam": 19000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Kinney, Jeff: Mély víz",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Kinney, Jeff: Egy ropi naplója - A nagy kiruccanás",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Rossmann, Dirk: Tintoretto és barátai",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Hoover, Colleen: Elrontott életek",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Rickman, Alan: Őrülten, mélyen - Alan Rickman naplói",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Steel,Danielle: Minden, ami csillog",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 2,
+		"nemzetiseg": "kf",
+		"mu": "Steel,Danielle: Royal",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Bán Mór: Hunyadi - Tizenkettedik könyv - Angyal a kapuk felett",
+		"peldanyszam": 14200
+	},
+	{
+		"ev": 2023,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Szobonya Erzsebet: Bajban Dubajban",
+		"peldanyszam": 13000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Bartos Erika: Brúnó Budapesten",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "100 magyar népmese: A Magyar népmesék sorozat teljes kiadása",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 3,
+		"nemzetiseg": "ma",
+		"mu": "Berg Judit: Rumini és az öt toll",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "Nesbø, Jo: Vérhold",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "Perrin, Valérie: A vasárnap koldusai",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "Kinney, Jeff: Egy ropi naplója - Pechszéria",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "Andersen, Hans Christian: 100 Andersen-mese",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 3,
+		"nemzetiseg": "kf",
+		"mu": "Steel, Danielle: Szomszédok",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Bödőcs Tibor: Prímszámok hóesésben",
+		"peldanyszam": 50000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Kepes András: Két macska voltam",
+		"peldanyszam": 40000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Náray Tamás: Barbara - A találkozás",
+		"peldanyszam": 25000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Bosnyák Viktória: A sirály a király?",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Karikó Katalin: Áttörések - Életem és a tudomány",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Karády Anna: Zserbó 2. - A háború tengerén",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Leslie L. Lawrence (Lőrincz L. László): Sindzse és az átkok könyve",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Bartos Erika: A csigaház kincsei",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Csendes Levente: Fényből és sárból",
+		"peldanyszam": 12000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Bartos Erika: Brúnó bemutatja Budapestet",
+		"peldanyszam": 10100
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Borbély Szilárd: Egyre rövidebb szavak",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Krusovszky Dénes: Levelek nélkül",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Lakatos Levente: Kiara Lord erkölcstelen randevúi",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Náray Tamás: Barbara - A végzet",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Pásztohy Panka: Pitypang és Lili, Pitypang és a diótörő",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Tomor Anita: Újra veled álmodom",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "ma",
+		"mu": "Varró Dániel: Túl a Maszat-hegyen 2.",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "King, Stephen: Tündérmese",
+		"peldanyszam": 25000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Perrin, Valérie: Trió",
+		"peldanyszam": 25000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Rowling, J.K.: Harry Potter - Varázsalmanach",
+		"peldanyszam": 20000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Hoover, Colleen: Reminders of him - Emlékek róla",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Yarros, Rebecca: Negyedik szárny",
+		"peldanyszam": 15000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Berrios, Frank: Mancs őrjárat. A szuperfilm",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Black, Holly: How the King of Elfhame Learned to Hate Stories - Hogyan gyűlölte meg Elfhon királya a történeteket",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Christie, Agatha: Őszi borzongás",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Grace, Hannah: Icebreaker - Jégtörő",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Hoover, Colleen: Egy nap talán",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "James, E.L.: Missus",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "King, Stephen: A harcos",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "King, Stephen: A hármak elhívatása",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Nesbø, Jo: Éjszakai Ház",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Perrin, Valérie: Másodvirágzás",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Potter, Beatrix: Nyúl Péter, karácsonyi csillag",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Score, Lucy: Amin sosem leszünk túl",
+		"peldanyszam": 10000
+	},
+	{
+		"ev": 2023,
+		"negyedev": 4,
+		"nemzetiseg": "kf",
+		"mu": "Stuart, Anna: Az auschwitzi bába",
+		"peldanyszam": 10000
+	}
+]

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Könyvkiadás</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>
+        2025 kiadas
+    </h1>
+    <label for="szerzonev">2.feladat: </label>
+    <input type="text" id="szerzonev">
+    <input type="submit" onclick="feladat2()" value="Keresés">
+    <div id="eredmeny2"></div>
+
+    
+    <input type="button" onclick="feladat3()" value="3.feladat">
+    
+    <div>Legnagyobb példányszám: </div>
+    <div id="eredmeny3"></div>
+
+    <script>
+        function feladat2() {
+            let nev = document.querySelector("#szerzonev").value;
+            let nevdarab = nev.split(" ");
+            let kulfoldinev = nevdarab.toReversed().join(", ");
+            //console.log(kulfoldinev);
+
+            let talalat = adatok.filter(e => (e.mu.includes(nev) || e.mu.includes(kulfoldinev)))
+            //console.log(adatok);
+            console.log(talalat);
+            if (talalat.length === 0) {
+                document.getElementById("eredmeny2").innerHTML = "Nem adtak ki";
+            }
+            else {
+                document.getElementById("eredmeny2").innerHTML = talalat.length + " könyv";
+            }
+        }
+
+        function feladat3() {
+            let talalat = adatok.map(e => e.peldanyszam).toSorted((a, b) => b-a)[0];
+
+
+            let talalatok = adatok.filter(e => e.peldanyszam === talalat);
+
+            document.getElementById("eredmeny3").innerHTML = talalatok[0].peldanyszam + " példány, " ;
+        }
+
+        let adatok = [];
+
+        fetch("kiadas.json")
+            .then(function (valasz) { return valasz.json(); })
+            .then(function (json) {
+                //console.log(json);
+                adatok = json;
+            });
+
+    </script>
+</body>
+
+</html>
