@@ -28,6 +28,9 @@ function tablaKeszit()
 }
 
 if (isset($_GET)) {
+    if (isset($_GET["new"]) && $_GET["new"] == 1) {
+        $_SESSION["labirintus"] = [];
+    }
     $t = array_keys($_GET);
     foreach ($t as $elem) {
         if (str_starts_with($elem, "gomb-")) {
@@ -43,14 +46,38 @@ if (isset($_GET)) {
     }
 }
 
+function mentettlabirintusrajzol($id){
+    global $config;
+    $vissza = "";
+    $vissza .= "<div>";
+    for ($sor = 0; $sor < $config["sor"]; $sor++) {
+        $vissza .= "<div style='display:flex;'>";
+        for ($oszlop = 0; $oszlop < $config["oszlop"]; $oszlop++) {
+            $gombszin = "";
+            if (isset($_SESSION["mentettlabirintusok"][$id][$sor][$oszlop]) && $_SESSION["mentettlabirintusok"][$id][$sor][$oszlop]) {
+                $gombszin = "fal";
+            }
+
+            $vissza .= '<div class=" ' . $gombszin . '" style="width:10px;height:10px;border:1px solid black;"></div>';
+        }
+        $vissza .= "</div>";
+    }
+    $vissza .= "</div>";
+    return $vissza;
+}
+
 //labirintus mentése
-if (isset($_SESSION["save"])) {
+if (isset($_GET["save"])) {
     $_SESSION["mentettlabirintusok"][$_GET["save"]] = $_SESSION["labirintus"];
 }
+
+
+
 
 $config["oszlop"] = 10;
 $config["sor"] = 10;
 $tablaKesz = tablaKeszit();
+$kiskep = mentettlabirintusrajzol(1);
 
 ?>
 
@@ -93,8 +120,11 @@ $tablaKesz = tablaKeszit();
     <form action="<?php echo $_SERVER["PHP_SELF"]; ?>" method="get">
         <?php
         echo $tablaKesz;
+        echo $kiskep;
         ?>
         <button type="submit" name="save" value="1">Mentés</button>
+        <button type="submit" name="new" value="1">Új</button>
+
     </form>
 
 
