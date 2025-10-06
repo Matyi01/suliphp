@@ -9,29 +9,52 @@
 </head>
 
 <body>
-    <h1>
-        2025 kiadas
-    </h1>
-    <label for="szerzonev">2.feladat: </label>
-    <input type="text" id="szerzonev">
-    <input type="submit" onclick="feladat2()" value="Keresés">
-    <div id="eredmeny2"></div>
-
-    
-    <input type="button" onclick="feladat3()" value="3.feladat">
-    
-    <div>Legnagyobb példányszám: </div>
-    <div id="eredmeny3"></div>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12">
+                <h1>2025 Könyvkiadás</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h2>Feladatok</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <label for="szerzonev">2.feladat: </label>
+                <input type="text" id="szerzonev">
+                <input type="submit" onclick="feladat2()" value="Keresés" class="btn btn-primary m-1">
+                <div id="eredmeny2"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="button" onclick="feladat3()" value="3. feladat" class="btn btn-primary m-1">
+                <div>Legnagyobb példányszám: </div>
+                <div id="eredmeny3"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="button" onclick="feladat4()" value="4. feladat" class="btn btn-primary m-1">
+                <div id="eredmeny4"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="button" onclick="feladat5()" value="5. feladat" class="btn btn-primary m-1">
+                <div id="eredmeny5"></div>
+            </div>
+        </div>
+    </div>
 
     <script>
         function feladat2() {
             let nev = document.querySelector("#szerzonev").value;
             let nevdarab = nev.split(" ");
             let kulfoldinev = nevdarab.toReversed().join(", ");
-            //console.log(kulfoldinev);
-
             let talalat = adatok.filter(e => (e.mu.includes(nev) || e.mu.includes(kulfoldinev)))
-            //console.log(adatok);
             console.log(talalat);
             if (talalat.length === 0) {
                 document.getElementById("eredmeny2").innerHTML = "Nem adtak ki";
@@ -42,12 +65,48 @@
         }
 
         function feladat3() {
-            let talalat = adatok.map(e => e.peldanyszam).toSorted((a, b) => b-a)[0];
-
-
+            let talalat = adatok.map(e => e.peldanyszam).toSorted((a, b) => b - a)[0];
             let talalatok = adatok.filter(e => e.peldanyszam === talalat);
+            document.getElementById("eredmeny3").innerHTML = talalatok[0].peldanyszam + " példány, " + talalatok.length + " alkalommal fordul elő";
+        }
 
-            document.getElementById("eredmeny3").innerHTML = talalatok[0].peldanyszam + " példány, " ;
+        function feladat4() {
+            let talalat = adatok.find(e => e.nemzetiseg == "kf" && e.peldanyszam >= 40000);
+            document.getElementById("eredmeny4").innerHTML = talalat.ev + "/" + talalat.negyedev + ". " + talalat.mu;
+        }
+
+        function feladat5() {
+            let talalatok = {};
+            adatok.forEach(e => {
+                if (talalatok[e.ev] === undefined) talalatok[e.ev] = { "ma": [], "kf": [] };
+                talalatok[e.ev][e.nemzetiseg].push(e.peldanyszam);
+            });
+
+            let tabla = document.createElement("table");
+            tabla.classList.add("table", "table-bordered", "table-striped");
+            let fejlec = document.createElement("tr");
+            fejlec.innerHTML = "<th>Év</th><th>Magyar kiadások száma</th><th>Magyar kiadások összpéldányszáma</th><th>Külföldi kiadások száma</th><th>Külföldi kiadások összpéldányszáma</th>";
+            tabla.appendChild(fejlec);
+            for (let [ev, kiadasok] of Object.entries(talalatok)) {
+                let sor = document.createElement("tr");
+                let cellaev = document.createElement("td");
+                cellaev.innerHTML = ev;
+                sor.appendChild(cellaev);
+                let cellamagyar = document.createElement("td");
+                cellamagyar.innerHTML = kiadasok.ma.length;
+                sor.appendChild(cellamagyar);
+                let cellaosszmagyar = document.createElement("td");
+                cellaosszmagyar.innerHTML = kiadasok.ma.reduce((a, b) => a + b, 0);
+                sor.appendChild(cellaosszmagyar);
+                let cellakulfoldi = document.createElement("td");
+                cellakulfoldi.innerHTML = kiadasok.ma.length;
+                sor.appendChild(cellakulfoldi);
+                let cellaosszkulfoldi = document.createElement("td");
+                cellaosszkulfoldi.innerHTML = kiadasok.kf.reduce((a, b) => a + b, 0);
+                sor.appendChild(cellaosszkulfoldi);
+                tabla.appendChild(sor);
+            }
+            document.getElementById("eredmeny5").appendChild(tabla);
         }
 
         let adatok = [];
