@@ -47,6 +47,12 @@
                 <div id="eredmeny5"></div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="button" onclick="feladat6()" value="6. feladat" class="btn btn-primary m-1">
+                <div id="eredmeny6"></div>
+            </div>
+        </div>
     </div>
 
     <script>
@@ -107,6 +113,17 @@
                 tabla.appendChild(sor);
             }
             document.getElementById("eredmeny5").appendChild(tabla);
+        }
+
+        function feladat6() {
+            const talalat = [];
+            adatok.forEach(e => {
+                if (talalat[e.mu] === undefined) talalat[e.mu] = [];
+                talalat[e.mu].push(e.peldanyszam);
+            });
+            console.log(talalat);
+            let talalatok2 = talalat.filter(e => e.length >= 3);
+            console.log(talalatok2);
         }
 
         let adatok = [];

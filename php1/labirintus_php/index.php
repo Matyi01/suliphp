@@ -49,7 +49,8 @@ if (isset($_GET)) {
 function mentettlabirintusrajzol($id){
     global $config;
     $vissza = "";
-    $vissza .= "<div>";
+    $vissza .= "<form method='get' action='".$_SERVER["PHP_SELF"]."' id='kicsi".$id."'>";
+    $vissza .= "<div onclick='document.getElementById('kicsi".$id."')'>";
     for ($sor = 0; $sor < $config["sor"]; $sor++) {
         $vissza .= "<div style='display:flex;'>";
         for ($oszlop = 0; $oszlop < $config["oszlop"]; $oszlop++) {
@@ -57,12 +58,12 @@ function mentettlabirintusrajzol($id){
             if (isset($_SESSION["mentettlabirintusok"][$id][$sor][$oszlop]) && $_SESSION["mentettlabirintusok"][$id][$sor][$oszlop]) {
                 $gombszin = "fal";
             }
-
             $vissza .= '<div class=" ' . $gombszin . '" style="width:10px;height:10px;border:1px solid black;"></div>';
         }
         $vissza .= "</div>";
     }
     $vissza .= "</div>";
+    $vissza .= "</form>";
     return $vissza;
 }
 
@@ -71,13 +72,14 @@ if (isset($_GET["save"])) {
     $_SESSION["mentettlabirintusok"][$_GET["save"]] = $_SESSION["labirintus"];
 }
 
-
-
-
 $config["oszlop"] = 10;
 $config["sor"] = 10;
 $tablaKesz = tablaKeszit();
-$kiskep = mentettlabirintusrajzol(1);
+$kiskep = "";
+$kiskep .= mentettlabirintusrajzol(1);
+$kiskep .= mentettlabirintusrajzol(2);
+$kiskep .= mentettlabirintusrajzol(3);
+
 
 ?>
 
@@ -109,6 +111,16 @@ $kiskep = mentettlabirintusrajzol(1);
 
         .fal {
             background-color: black;
+        }
+        form > div{
+            margin: 5px;
+            display: inline-block;
+        }
+        body {
+            margin: 20px;
+        }
+        table {
+            margin: 10px;
         }
     </style>
 </head>
