@@ -46,11 +46,12 @@ if (isset($_GET)) {
     }
 }
 
-function mentettlabirintusrajzol($id){
+function mentettlabirintusrajzol($id)
+{
     global $config;
     $vissza = "";
-    $vissza .= "<form method='get' action='".$_SERVER["PHP_SELF"]."' id='kicsi".$id."'>";
-    $vissza .= "<div onclick='document.getElementById('kicsi".$id."')'>";
+    $vissza .= "<form method='get' action='" . $_SERVER["PHP_SELF"] . "' id='kicsi" . $id . "'>";
+    $vissza .= "<div onclick='document.getElementById('kicsi" . $id . "')'>";
     for ($sor = 0; $sor < $config["sor"]; $sor++) {
         $vissza .= "<div style='display:flex;'>";
         for ($oszlop = 0; $oszlop < $config["oszlop"]; $oszlop++) {
@@ -112,13 +113,16 @@ $kiskep .= mentettlabirintusrajzol(3);
         .fal {
             background-color: black;
         }
-        form > div{
+
+        form>div {
             margin: 5px;
             display: inline-block;
         }
+
         body {
             margin: 20px;
         }
+
         table {
             margin: 10px;
         }
@@ -132,13 +136,14 @@ $kiskep .= mentettlabirintusrajzol(3);
     <form action="<?php echo $_SERVER["PHP_SELF"]; ?>" method="get">
         <?php
         echo $tablaKesz;
-        echo $kiskep;
         ?>
         <button type="submit" name="save" value="1">Mentés</button>
         <button type="submit" name="new" value="1">Új</button>
 
     </form>
-
+    <?php
+    echo $kiskep;
+    ?>
 
     <!--
     Kesziteni egy sessionnel egy labirintus
