@@ -1,0 +1,4857 @@
+[
+    {
+        "nap": 1,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 1,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 1,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 1,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 1,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 1,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 1,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 1,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 1,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 1,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 1,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 1,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 1,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 1,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 1,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 1,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 1,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 1,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 1,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 1,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 1,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 1,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 1,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 1,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 1,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 1,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 1,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 2,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 2,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 2,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 2,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 2,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 2,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 2,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 2,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 2,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 2,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 2,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 2,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 2,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 2,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 2,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 2,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 2,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 2,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 2,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 2,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 2,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 2,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 2,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 2,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 3,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 3,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 3,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 3,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 3,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 3,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 3,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 3,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 3,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 3,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 3,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 3,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 3,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 3,
+        "varos": "NR",
+        "db": 7
+    },
+    {
+        "nap": 3,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 3,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 3,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 3,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 3,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 3,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 3,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 3,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 3,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 3,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 3,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 3,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 3,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 3,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 3,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 3,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 3,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 3,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 3,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 4,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 4,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 4,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 4,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 4,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 4,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 4,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 4,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 4,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 4,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 4,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 4,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 4,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 4,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 4,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 4,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 4,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 4,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 4,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 4,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 4,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 4,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 4,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 4,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 4,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 4,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 4,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 4,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 4,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 4,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 4,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 4,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 4,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 4,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 4,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 4,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 4,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 5,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 5,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 5,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 5,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 5,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 5,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 5,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 5,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 5,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 5,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 5,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 5,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 5,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 5,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 5,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 5,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 5,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 5,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 5,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 5,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 5,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 5,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 5,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 5,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 5,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 5,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 5,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 5,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 5,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 5,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 5,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 5,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 5,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 5,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 5,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 6,
+        "varos": "PL",
+        "db": 6
+    },
+    {
+        "nap": 6,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 6,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 6,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 6,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 6,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 6,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 6,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 6,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 6,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 6,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 6,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 6,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 6,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 6,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 6,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 6,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 6,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 6,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 6,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 6,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 6,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 6,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 6,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 6,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 6,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 6,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 6,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 6,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 6,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 6,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 6,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 6,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 7,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 7,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 7,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 7,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 7,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 7,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 7,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 7,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 7,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 7,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 7,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 7,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 7,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 7,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 7,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 7,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 7,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 7,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 7,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 7,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 7,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 7,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 7,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 7,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 7,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 8,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 8,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 8,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 8,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 8,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 8,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 8,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 8,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 8,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 8,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 8,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 8,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 8,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 8,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 8,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 8,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 8,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 8,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 8,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 8,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 8,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 8,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 8,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 8,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 8,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 8,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 8,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 8,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 8,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 8,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 8,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 8,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 9,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 9,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 9,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 9,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 9,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 9,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 9,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 9,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 9,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 9,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 9,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 9,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 9,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 9,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 9,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 9,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 9,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 9,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 9,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 9,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 9,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 9,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 9,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 9,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 9,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 9,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 9,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 10,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 10,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 10,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 10,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 10,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 10,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 10,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 10,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 10,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 10,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 10,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 10,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 10,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 11,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 11,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 11,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 11,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 11,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 11,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 11,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 11,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 11,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 11,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 11,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 11,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 11,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 11,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 11,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 11,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 11,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 11,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 11,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 11,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 11,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 11,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 11,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 11,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 11,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 11,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 11,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 11,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 11,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 12,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 12,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 12,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 12,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 12,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 12,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 12,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 12,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 12,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 12,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 12,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 12,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 12,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 12,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 12,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 12,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 12,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 12,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 12,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 12,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 12,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 12,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 12,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 12,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 12,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 12,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 12,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 12,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 12,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 12,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 12,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 12,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 12,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 12,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 12,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 12,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 12,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 12,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 12,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 12,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 12,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 12,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 12,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 13,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 13,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 13,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 13,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 13,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 13,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 13,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 13,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 13,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 13,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 13,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 13,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 13,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 13,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 13,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 13,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 13,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 13,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 13,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 13,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 13,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 13,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 13,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 13,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 13,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 13,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 13,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 13,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 13,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 13,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 14,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 14,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 14,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 14,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 14,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 14,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 14,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 14,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 14,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 14,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 14,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 14,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 14,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 14,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 14,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 14,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 14,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 14,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 14,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 14,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 14,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 14,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 14,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 14,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 14,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 14,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 14,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 14,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 14,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 14,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 14,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 14,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 14,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 14,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 14,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 14,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 14,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 14,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 14,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 14,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 14,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 14,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 14,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 14,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 14,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 14,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 15,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 15,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 15,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 15,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 15,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 15,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 15,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 15,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 15,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 15,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 15,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 15,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 15,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 15,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 15,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 15,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 15,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 15,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 15,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 15,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 15,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 15,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 15,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 15,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 15,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 15,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 15,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 15,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 15,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 15,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 15,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 15,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 16,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 16,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 16,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 16,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 16,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 16,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 16,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 16,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 16,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 16,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 16,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 16,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 16,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 16,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 16,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 16,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 16,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 16,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 16,
+        "varos": "NR",
+        "db": 8
+    },
+    {
+        "nap": 16,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 16,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 16,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 16,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 16,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 16,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 16,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 16,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 16,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 16,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 16,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 16,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 16,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 16,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 16,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 16,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 16,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 16,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 16,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 16,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 16,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 16,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 16,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 16,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 16,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 16,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 16,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 16,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 16,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 17,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 17,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 17,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 17,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 17,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 17,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 17,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 17,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 17,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 17,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 17,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 17,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 17,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 17,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 17,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 17,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 17,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 17,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 17,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 17,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 17,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 17,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 17,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 17,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 17,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 17,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 17,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 17,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 17,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 17,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 17,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 17,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 17,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 17,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 17,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 17,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 17,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 17,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 17,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 17,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 17,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 17,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 17,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 17,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 18,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 18,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 18,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 18,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 18,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 18,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 18,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 18,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 18,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 18,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 18,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 18,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 18,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 18,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 18,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 18,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 18,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 18,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 18,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 18,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 18,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 18,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 18,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 18,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 18,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 18,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 18,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 18,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 18,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 18,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 18,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 18,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 18,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 18,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 18,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 18,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 18,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 18,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 18,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 18,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 19,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 19,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 19,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 19,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 19,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 19,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 19,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 19,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 19,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 19,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 19,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 19,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 19,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 19,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 19,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 19,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 19,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 19,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 19,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 19,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 19,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 19,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 19,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 19,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 19,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 19,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 19,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 19,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 19,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 19,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 19,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 19,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 19,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 19,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 19,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 19,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 19,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 20,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 20,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 20,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 20,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 20,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 20,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 20,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 20,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 20,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 20,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 20,
+        "varos": "PL",
+        "db": 7
+    },
+    {
+        "nap": 20,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 20,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 20,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 20,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 20,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 20,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 20,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 20,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 20,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 20,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 20,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 20,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 20,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 20,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 20,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 20,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 20,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 20,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 20,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 20,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 20,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 20,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 20,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 20,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 20,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 20,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 20,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 20,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 21,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 21,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 21,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 21,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 21,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 21,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 21,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 21,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 21,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 21,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 21,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 21,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 21,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 21,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 21,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 21,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 21,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 21,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 21,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 21,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 21,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 21,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 21,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 21,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 21,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 21,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 21,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 21,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 21,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 21,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 21,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 21,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 21,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 21,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 21,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 21,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 21,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 22,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 22,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 22,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 22,
+        "varos": "NR",
+        "db": 9
+    },
+    {
+        "nap": 22,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 22,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 22,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 22,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 22,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 22,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 22,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 22,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 22,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 22,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 22,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 22,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 22,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 22,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 22,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 22,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 22,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 22,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 22,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 22,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 22,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 22,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 22,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 22,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 22,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 23,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 23,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 23,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 23,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 23,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 23,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 23,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 23,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 23,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 23,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 23,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 23,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 23,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 23,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 23,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 23,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 23,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 23,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 23,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 23,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 23,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 23,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 23,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 23,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 24,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 24,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 24,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 24,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 24,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 24,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 24,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 24,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 24,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 24,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 24,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 24,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 24,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 24,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 24,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 24,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 24,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 24,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 24,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 24,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 24,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 24,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 24,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 24,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 24,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 24,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 24,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 24,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 24,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 24,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 24,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 24,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 24,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 24,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 24,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 24,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 25,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 25,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 25,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 25,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 25,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 25,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 25,
+        "varos": "NR",
+        "db": 8
+    },
+    {
+        "nap": 25,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 25,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 25,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 25,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 25,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 25,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 25,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 25,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 25,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 25,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 25,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 25,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 25,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 25,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 25,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 25,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 25,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 25,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 25,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 25,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 25,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 26,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 26,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 26,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 26,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 26,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 26,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 26,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 26,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 26,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 26,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 26,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 26,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 26,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 26,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 26,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 26,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 26,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 26,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 26,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 26,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 26,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 26,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 26,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 26,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 26,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 26,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 26,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 26,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 26,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 26,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 26,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 26,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 26,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 27,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 27,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 27,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 27,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 27,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 27,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 27,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 27,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 27,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 27,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 27,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 27,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 27,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 27,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 27,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 27,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 27,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 27,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 27,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 27,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 27,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 27,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 27,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 27,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 27,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 27,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 27,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 27,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 27,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 27,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 27,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 28,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 28,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 28,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 28,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 28,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 28,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 28,
+        "varos": "TV",
+        "db": 8
+    },
+    {
+        "nap": 28,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 28,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 28,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 28,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 28,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 28,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 28,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 28,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 28,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 28,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 28,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 28,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 28,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 28,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 28,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 28,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 29,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 29,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 29,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 29,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 29,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 29,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 29,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 29,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 29,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 29,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 29,
+        "varos": "NR",
+        "db": 3
+    },
+    {
+        "nap": 29,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 29,
+        "varos": "NR",
+        "db": 1
+    },
+    {
+        "nap": 29,
+        "varos": "PL",
+        "db": 5
+    },
+    {
+        "nap": 29,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 29,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 29,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 29,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 29,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 29,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 29,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 29,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 29,
+        "varos": "NR",
+        "db": 2
+    },
+    {
+        "nap": 29,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 29,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 29,
+        "varos": "NR",
+        "db": 5
+    },
+    {
+        "nap": 29,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 29,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 29,
+        "varos": "NR",
+        "db": 4
+    },
+    {
+        "nap": 29,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 29,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 29,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 30,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 30,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 30,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 30,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 30,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 30,
+        "varos": "PL",
+        "db": 2
+    },
+    {
+        "nap": 30,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 30,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 30,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 30,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 30,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 30,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 30,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 30,
+        "varos": "PL",
+        "db": 4
+    },
+    {
+        "nap": 30,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 30,
+        "varos": "TV",
+        "db": 1
+    },
+    {
+        "nap": 30,
+        "varos": "TV",
+        "db": 5
+    },
+    {
+        "nap": 30,
+        "varos": "PL",
+        "db": 3
+    },
+    {
+        "nap": 30,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 30,
+        "varos": "TV",
+        "db": 4
+    },
+    {
+        "nap": 30,
+        "varos": "TV",
+        "db": 2
+    },
+    {
+        "nap": 30,
+        "varos": "TV",
+        "db": 3
+    },
+    {
+        "nap": 30,
+        "varos": "PL",
+        "db": 1
+    },
+    {
+        "nap": 30,
+        "varos": "TV",
+        "db": 3
+    }
+]

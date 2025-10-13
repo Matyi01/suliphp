@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reklám</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12">
+                <h1>Reklám</h1>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12">
+                <h2>Feladatok</h2>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12">
+                <label>2. feladat: </label>
+                <div id="eredmeny2"></div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12">
+                <label>3. feladat: </label><br>
+                <label for="napbe">Kérem, adjon meg egy napot: </label>
+                <input type="number" id="napbe" name="napbe"><br>
+                <input type="submit" onclick="feladat3()" value="Mutat" class="btn btn-primary m-1">
+                <div id="eredmeny3"></div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12">
+                <label>4. feladat: </label>
+                <div id="eredmeny4"></div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12">
+                <label>5. feladat: </label>
+                <div id="eredmeny5"></div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12">
+                <label>7. feladat: </label>
+                <div id="eredmeny7"></div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12">
+                <label>8. feladat: </label>
+                <div id="eredmeny8"></div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12">
+                <label>9. feladat: </label>
+                <div id="eredmeny9"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function feladat2() {
+            document.getElementById("eredmeny2").innerHTML = "A rendelések száma: " + adatok.length;
+        }
+
+        function feladat3() {
+            let nap = parseInt(document.getElementById("napbe").value);
+            let count = 0;
+            for (let i = 0; i < adatok.length; i++) {
+                if (adatok[i].nap === nap) {
+                    count++;
+                }
+            }
+            document.getElementById("eredmeny3").innerHTML = "A rendelések száma az adott napon: " + count;
+        }
+
+        function feladat4() {
+            let ossz = 0;
+            for (let nap = 1; nap < 31; nap++) {
+                let voltrendeles = false;
+                for (let i = 0; i < adatok.length; i++) {
+                    if (adatok[i].nap === nap && adatok[i].varos === "NR") {
+                        voltrendeles = true;
+                        break;
+                    }
+                }
+                if (!voltrendeles) {
+                    ossz++;
+                }
+            }
+            if (ossz === 0) {
+                document.getElementById("eredmeny4").innerHTML = "Minden nap volt rendelésa reklámban nem érintett városból";
+            } else {
+                document.getElementById("eredmeny4").innerHTML = ossz + " nap nem volt a reklámban nem érintett városból rendelés";
+            }
+        }
+
+        function feladat5() {
+            let maxDb = 0;
+            let maxNap = 0;
+            for (let i = 0; i < adatok.length; i++) {
+                if (adatok[i].db > maxDb) {
+                    maxDb = adatok[i].db;
+                    maxNap = adatok[i].nap;
+                }
+            }
+            document.getElementById("eredmeny5").innerHTML = "A legnagyobb darabszám: " + maxDb + ", első ilyen rendelés napja: " + maxNap;
+        }
+
+        function osszes(varos, nap) {
+            let ossz = 0;
+            for (let i = 0; i < adatok.length; i++) {
+                if (adatok[i].varos === varos && adatok[i].nap === nap) {
+                    ossz += adatok[i].db;
+                }
+            }
+            return ossz;
+        }
+
+        function feladat7() {
+            document.getElementById("eredmeny7").innerHTML = "A rendelt termékek darabszáma a 21. napon PL: " + osszes("PL", 21) + " TV: " + osszes("TV", 21) + " NR: " + osszes("NR", 21);
+        }
+
+        function feladat8() {
+            let eredmeny = "<table class='table'><tr><th>Város</th><th>1-10 nap</th><th>11-20 nap</th><th>21-30 nap</th></tr>";
+            let varosok = ["PL", "TV", "NR"];
+            for (let i = 0; i < varosok.length; i++) {
+                let varos = varosok[i];
+                let db1 = 0;
+                let db2 = 0;
+                let db3 = 0;
+                for (let j = 0; j < adatok.length; j++) {
+                    if (adatok[j].varos === varos) {
+                        if (adatok[j].nap >= 1 && adatok[j].nap <= 10) {
+                            db1++;
+                        } else if (adatok[j].nap >= 11 && adatok[j].nap <= 20) {
+                            db2++;
+                        } else if (adatok[j].nap >= 21 && adatok[j].nap <= 30) {
+                            db3++;
+                        }
+                    }
+                }
+                eredmeny += "<tr><td>" + varos + "</td><td>" + db1 + "</td><td>" + db2 + "</td><td>" + db3 + "</td></tr>";
+            }
+            eredmeny += "</table>";
+            document.getElementById("eredmeny8").innerHTML = eredmeny;
+        }
+
+        function feladat9() {
+            //összegzett oszlop diagram készítése divekkel
+            let PL = [];
+            let TV = [];
+            let NR = [];
+            let varosok = ["PL", "TV", "NR"];
+            for (let i = 0; i < varosok.length; i++) {
+                let varos = varosok[i];
+                let db1 = 0;
+                let db2 = 0;
+                let db3 = 0;
+                for (let j = 0; j < adatok.length; j++) {
+                    if (adatok[j].varos === varos) {
+                        if (adatok[j].nap >= 1 && adatok[j].nap <= 10) {
+                            db1++;
+                        } else if (adatok[j].nap >= 11 && adatok[j].nap <= 20) {
+                            db2++;
+                        } else if (adatok[j].nap >= 21 && adatok[j].nap <= 30) {
+                            db3++;
+                        }
+                    }
+                }
+                if (varos === "PL") {
+                    PL.push(db1, db2, db3);
+                } else if (varos === "TV") {
+                    TV.push(db1, db2, db3);
+                } else if (varos === "NR") {
+                    NR.push(db1, db2, db3);
+                }
+            }
+
+
+
+
+        }
+
+        let adatok = [];
+
+        fetch("rendel.json")
+            .then(function (valasz) { return valasz.json(); })
+            .then(function (json) {
+                adatok = json;
+                feladat2();
+                feladat4();
+                feladat5();
+                feladat7();
+                feladat8();
+                feladat9();
+            });
+    </script>
+</body>
+
+</html>
