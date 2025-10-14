@@ -10,6 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
@@ -66,9 +67,12 @@
         <div class="row mt-3">
             <div class="col-12">
                 <label>9. feladat: </label>
-                <div id="eredmeny9"></div>
+                <div id="eredmeny9">
+                    <canvas id="myChart"></canvas>
+                </div>
             </div>
         </div>
+
     </div>
     <script>
         function feladat2() {
@@ -189,10 +193,60 @@
                 }
             }
 
+            let varosadatok = {
+                labels: ['1-10 nap', '11-20 nap', '21-30 nap'],
+                datasets: [
+                    {
+                        label: 'PL',
+                        data: [PL[0], PL[1], PL[2]],
+                        backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                        borderColor: 'rgba(255, 99, 132, 1)',
+                        borderWidth: 1
+                    },
+                    {
+                        label: 'TV',
+                        data: [TV[0], TV[1], TV[2]],
+                        backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1
+                    },
+                    {
+                        label: 'NR',
+                        data: [NR[0], NR[1], NR[2]],
+                        backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }
+                ]
+            };
 
+            const ctx = document.getElementById('myChart');
 
-
+            new Chart(ctx, {
+                type: 'bar',
+                data: varosadatok,
+                options: {
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'A reklámkampány eredményességének vizsgálata'
+                        },
+                    },
+                    scales: {
+                        x: {
+                            stacked: true,
+                        },
+                        y: {
+                            stacked: true,
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
         }
+
+
+
 
         let adatok = [];
 
