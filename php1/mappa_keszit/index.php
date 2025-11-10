@@ -14,7 +14,7 @@ function mappakeszit()
 {
     $mappaDb = rand(1, 5);
     $mappaNevek = [];
-    
+
     for ($i = 0; $i < $mappaDb; $i++) {
         $mappaNevek[] = mappaNev();
     }
@@ -29,6 +29,14 @@ function mappakeszit()
 
     if (!mkdir($structure, 0777, true)) {
         die('Failed to create directories...');
+    }
+
+    if (rand(1, 100) < 51) {
+        copy("img2.jpg", $structure . "img.jpg");
+    }
+
+    if (file_exists($structure . "img.jpg")) {
+        echo "<img src='".$structure . "img.jpg"."' style='height: 300px'>";
     }
 }
 
