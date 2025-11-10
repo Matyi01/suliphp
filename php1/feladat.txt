@@ -33,3 +33,18 @@ sessionben eltárolt adatok
 szavazás vége és megjelenítés ha get-be specifikus változót ír
 
 
+-----------
+
+készítő rész:
+-max 5 mappa mélységben hoz létre mappákat
+-mappa nevek:
+    -php függvénnyel generált nevek
+    -2-8 karakteres nevek
+    -abc
+-5% eséllyel kép (rendes kép)
+
+megjelenítő rész:
+-ha képet talál megjeleníti
+-title = src
+
+

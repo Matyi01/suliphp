@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>magazine layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row p-3  bg-light rounded-bottom-3">
+            <div class="col-4 h3">Oldal címe</div>
+            <div class="col-7"></div>
+            <div class="col-1">
+                <button type="submit" class="btn btn-dark">Log in</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 p-3">
+                <img id="kep1" class="img-fluid">
+            </div>
+            <div class="col-6 p-3">
+                <p class="bg-light rounded-3 p-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet gravida lorem. In egestas
+                    quis purus quis efficitur. Nunc placerat pellentesque nisi vel posuere. Ut elementum non sem
+                    dignissim dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut blandit
+                    risus. Curabitur sed metus aliquam, ultricies felis ac, vulputate justo. Nunc venenatis mauris erat,
+                    quis accumsan tortor euismod in. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                    pretium magna ac tortor porttitor vehicula. Curabitur accumsan quam at augue sodales, at semper
+                    mauris aliquam. Quisque condimentum sit amet nibh vitae pellentesque. Quisque consequat imperdiet
+                    ante eget porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                    inceptos himenaeos. Fusce fermentum ante sit amet congue bibendum. Mauris mattis mi metus, id
+                    condimentum augue iaculis at. Aenean at dignissim justo. Etiam id orci semper augue maximus egestas.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 p-3">
+                <img id="kep2" class="img-fluid">
+            </div>
+            <div class="col-3 p-3">
+                <p class="bg-light rounded-3 p-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet gravida lorem. In egestas
+                    quis purus quis efficitur. Nunc placerat pellentesque nisi vel posuere. Ut elementum non sem
+                    dignissim dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut blandit
+                    risus. Curabitur sed metus aliquam, ultricies felis ac, vulputate justo.
+                </p>
+            </div>
+            <div class="col-3 p-3">
+                <img id="kep3" class="img-fluid">
+            </div>
+            <div class="col-3 p-3">
+                <p class="bg-light rounded-3 p-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet gravida lorem. In egestas
+                    quis purus quis efficitur. Nunc placerat pellentesque nisi vel posuere. Ut elementum non sem
+                    dignissim dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut blandit
+                    risus. Curabitur sed metus aliquam, ultricies felis ac, vulputate justo.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let products = [];
+
+        let holTart = 0;
+
+        for (let i = 1; i < 4; i++) {
+            fetch('https://fakestoreapi.com/products/' + i)
+                .then(res => res.json())
+                .then(json => document.getElementById("kep" + i).src = json.image)
+            holtart = i;
+        }
+
+        window.onscroll = function (ev) {
+            if ((window.innerHeight + Math.round(window.scrollY)) >= document.body.offsetHeight) {
+                // you're at the bottom of the page
+
+                if (holtart < 24) {
+
+                    let row = document.createElement("div");
+                    row.classList.add("row")
+
+                    fetch('https://fakestoreapi.com/products/' + holtart)
+                        .then(res => res.json())
+                        .then(json => {
+                            let kepdiv = document.createElement("div");
+                            kepdiv.classList.add("col-3");
+                            kepdiv.classList.add("p-3");
+                            let kep = document.createElement("img");
+                            kep.classList.add("img-fluid");
+                            kep.src = json.image;
+                            let szovegdiv = document.createElement("div");
+                            szovegdiv.classList.add("col-3");
+                            szovegdiv.classList.add("p-3");
+                            let szoveg = document.createElement("p");
+                            szoveg.classList.add("bg-light");
+                            szoveg.classList.add("rounded-3");
+                            szoveg.classList.add("p-3");
+                            szoveg.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet gravida lorem. In egestas quis purus quis efficitur.Nunc placerat pellentesque nisi vel posuere.Ut elementum non sem dignissim dapibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Integer ut blandit risus.Curabitur sed metus aliquam, ultricies felis ac, vulputate justo.";
+                            szovegdiv.appendChild(szoveg);
+                            kepdiv.appendChild(kep);
+                            row.appendChild(kepdiv);
+                            row.appendChild(szovegdiv);
+                        })
+                    holtart++;
+                    fetch('https://fakestoreapi.com/products/' + holtart)
+                        .then(res => res.json())
+                        .then(json => {
+                            let kepdiv = document.createElement("div");
+                            kepdiv.classList.add("col-3");
+                            kepdiv.classList.add("p-3");
+                            let kep = document.createElement("img");
+                            kep.classList.add("img-fluid");
+                            kep.src = json.image;
+                            let szovegdiv = document.createElement("div");
+                            szovegdiv.classList.add("col-3");
+                            szovegdiv.classList.add("p-3");
+                            let szoveg = document.createElement("p");
+                            szoveg.classList.add("bg-light");
+                            szoveg.classList.add("rounded-3");
+                            szoveg.classList.add("p-3");
+                            szoveg.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet gravida lorem. In egestas quis purus quis efficitur.Nunc placerat pellentesque nisi vel posuere.Ut elementum non sem dignissim dapibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Integer ut blandit risus.Curabitur sed metus aliquam, ultricies felis ac, vulputate justo.";
+                            szovegdiv.appendChild(szoveg);
+                            kepdiv.appendChild(kep);
+                            row.appendChild(kepdiv);
+                            row.appendChild(szovegdiv);
+                        })
+                    holtart++;
+
+                    document.getElementsByClassName("container")[0].appendChild(row);
+                }
+
+
+                console.log(holtart);
+            }
+        };
+
+        fetch('https://fakestoreapi.com/products')
+            .then(res => res.json())
+            .then(json => termekek(json))
+
+        function termekek(tomb) {
+            products = tomb;
+            console.log(products);
+        }
+
+    </script>
+
+</body>
+
+</html>
