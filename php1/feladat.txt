@@ -35,6 +35,7 @@ szavazás vége és megjelenítés ha get-be specifikus változót ír
 
 -----------
 
+
 készítő rész:
 -max 5 mappa mélységben hoz létre mappákat
 -mappa nevek:
@@ -46,5 +47,24 @@ készítő rész:
 megjelenítő rész:
 -ha képet talál megjeleníti
 -title = src
+
+
+-----------
+
+
+Dolgozat:
+-file feltöltése
+    -ha jpeg vagy png akkor töltse fel a képek mappába két átméretezett formában
+        -nagy és kicsi
+        -nagy: 800 x 600
+        -kicsi: 100 széles
+        -név sorszamozott, nem eredeti
+        -kis képek jelenjenek meg, kattintásra a nagy
+    -ha nem kép, kiterjesztése nem lehet: php, html, js
+        -dokumentációk mappába másolja be, ha megfelel ennek
+    
+
+
+
 
 
