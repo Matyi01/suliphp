@@ -64,6 +64,11 @@ Dolgozat:
         -dokumentációk mappába másolja be, ha megfelel ennek
     
 
+-----------
+
+
+név, életkor elmentése adatbázisba
+megjeleniti ugyanakkor táblázatos formában
 
 
 
