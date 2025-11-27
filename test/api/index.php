@@ -9,7 +9,6 @@ if (isset($_GET["path"])) {
 
     $conn = mysqli_connect($servername, $username, $password, $db);
     $apiParts = explode("/", $_GET["path"]);
-    var_dump($apiParts);
 
 
     if ($apiParts[0] == "todo") {
@@ -25,9 +24,10 @@ if (isset($_GET["path"])) {
             $json = json_encode($jsonTomb);
             echo $json;
 
+        } elseif ($_SERVER["REQUEST_METHOD"] == "POST") {
+            phpinfo(32);
         }
-        //var_dump($_SERVER["REQUEST METHOD"])
-        //phpinfo(32);
+
     }
 } else {
 

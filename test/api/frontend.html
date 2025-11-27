@@ -10,7 +10,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
-    <script src="api.js"></script>
 </head>
 
 <body class="">
@@ -26,15 +25,18 @@
             </div>
             <div class="col-10 p-3">
                 <div class="p-2 bg-light rounded-3">
-                    <div class="consectetur">
-                        <div class="row">
-                            <div class="col-11">
-                                <input type="text" class="form-control">
+                    <div class="container">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-11">
+                                    <input type="text" class="form-control" style="font-size: 1.2rem;" id="szoveg">
+                                </div>
+                                <div class="col-1">
+                                    <input class="btn btn-success w-100 h-100" onclick="hozzaAd()" value="✚"
+                                        type="button">
+                                </div>
                             </div>
-                            <div class="col-1">
-                                <button class="btn btn-success w-100 h-100">+</button>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -44,30 +46,15 @@
         <div class="row">
             <div class="col-1">
             </div>
-            <div class="col-10 p-3">
-                <div class="p-2 bg-light rounded-3">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-11">
-                                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio perferendis
-                                    quidem voluptatem
-                                    necessitatibus tempora itaque ipsa! Similique beatae incidunt magni reiciendis!
-                                    Fugiat
-                                    placeat
-                                    reprehenderit expedita neque asperiores, eos dolorum totam.</p>
-                            </div>
-                            <div class="col-1 text-center">
-                                <input type="checkbox" class="form-check-input">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-10 p-3" id="lista">
+
             </div>
             <div class="col-1">
             </div>
         </div>
     </div>
 
+    <script src="api.js"></script>
 
 </body>
 
