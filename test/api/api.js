@@ -2,7 +2,7 @@ document.body.onload = init();
 
 function init() {
     console.log("start");
-    sorBetolt();
+    todoBetolt();
 }
 
 function tobbSor(sor) {
@@ -19,7 +19,7 @@ function tobbSor(sor) {
         `;
 }
 
-function sorBetolt() {
+function todoBetolt() {
     fetch("todo")
         .then((x) => x.json())
         .then((adatok) => {
@@ -37,10 +37,24 @@ function hozzaAd() {
         memberid: "asd",
         feladat: szoveg
     };
-    fetch("todo/",{
+
+    fetch("todo/", {
         method: "POST",
         body: JSON.stringify(json)
     })
-    .then(x => x.json())
-    .then(y => console.log(y))
+        .then(x => x.json())
+        .then(y => {
+            if (y.status == "success") {
+                document.getElementById("szoveg").value = "";
+                todoBetolt();
+            } else {
+                console.log(y)
+                document.getElementById("errorMessage").innerText = y.errorMessage;
+                document.getElementById("errorRow").classList.remove("d-none");
+                setTimeout(() => {
+                    document.getElementById("errorMessage").innerText = "";
+                    document.getElementById("errorRow").classList.add("d-none");
+                }, 5000);
+            }
+        })
 }

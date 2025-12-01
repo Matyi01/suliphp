@@ -1,4 +1,5 @@
 <?php
+mysqli_report(MYSQLI_REPORT_OFF);
 
 if (isset($_GET["path"])) {
 
@@ -25,9 +26,23 @@ if (isset($_GET["path"])) {
             echo $json;
 
         } elseif ($_SERVER["REQUEST_METHOD"] == "POST") {
-            phpinfo(32);
-        }
+            $input = json_decode(file_get_contents("php://input"), true);
 
+            if (isset($input["memberid"])) {
+                $query = "INSERT INTO todo (szoveg, datum) VALUES('" . mysqli_real_escape_string($conn, $input["feladat"]) . "', now())";
+
+                $results = mysqli_query($conn, $query);
+
+                $jsonTomb = [];
+                if (!$results) {
+                    $jsonTomb["status"] = "error";
+                    $jsonTomb["errorMessage"] = mysqli_error($conn);
+                } else {
+                    $jsonTomb["status"] = "success";
+                }
+                echo json_encode($jsonTomb);
+            }
+        }
     }
 } else {
 
