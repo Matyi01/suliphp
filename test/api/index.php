@@ -28,7 +28,7 @@ if (isset($_GET["path"])) {
             $input = json_decode(file_get_contents("php://input"), true);
 
             if (isset($input["memberid"])) {
-                $query = "INSERT INTO todo (szoveg, datum) VALUES('" . mysqli_real_escape_string($conn, $input["feladat"]) . "', now())";
+                $query = "INSERT INTO todo (szoveg, datum) VALUES('" . mysqli_real_escape_string($conn, $input["feladat"]) . "', NOW())";
 
                 $results = mysqli_query($conn, $query);
 
@@ -47,7 +47,24 @@ if (isset($_GET["path"])) {
 
             if (isset($input["memberid"])) {
 
-                $query = "DELETE FROM todo WHERE id = " . $apiParts[1];
+                $query = "DELETE FROM todo WHERE id = " . mysqli_real_escape_string($conn, $apiParts[1]);
+
+                $results = mysqli_query($conn, $query);
+
+                $jsonTomb = [];
+                if (!$results) {
+                    $jsonTomb["status"] = "error";
+                    $jsonTomb["errorMessage"] = mysqli_error($conn);
+                } else {
+                    $jsonTomb["status"] = "success";
+                }
+                echo json_encode($jsonTomb);
+            }
+        } elseif ($_SERVER["REQUEST_METHOD"] == "PUT") {
+            $input = json_decode(file_get_contents("php://input"), true);
+
+            if (isset($input["memberid"])) {
+                $query = "UPDATE todo SET vege = NOW() WHERE id = " . mysqli_real_escape_string($conn, $apiParts[1]);
 
                 $results = mysqli_query($conn, $query);
 

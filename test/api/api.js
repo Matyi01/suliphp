@@ -5,15 +5,18 @@ function init() {
     todoBetolt();
 }
 
-function tobbSor(szoveg, id) {
+function tobbSor(szoveg, id, vegeVan) {
     return `
-        <div class="p-2 bg-light rounded-3 mb-3">
+        <div class="p-2 bg-light rounded-3 mb-3 ${vegeVan?"disabled":""}">
             <div class="container">
                 <div class="row pt-3 pb-3">
-                <div class="col-9" style="font-size: 1.2rem">${szoveg}</div>
-                <div class="col-1"><button class="btn btn-outline-secondary w-100 h-100">✔</button></div>
-                <div class="col-1"><button class="btn btn-outline-secondary w-100 h-100" data-id="${id}" onclick="torol(this)">🗑️</button></div>
-                <div class="col-1"><button class="btn btn-outline-secondary w-100 h-100">✏️</button></div>
+                <div class="col-12 col-lg-9" style="font-size: 1.2rem">${szoveg}</div>
+                <div class="col-4 col-sm-3 col-md-2 col-lg-1"><button class="btn btn-outline-secondary w-100 h-100"
+                onclick="pipa(${id})">✔</button></div>
+                <div class="col-4 col-sm-3 col-md-2 col-lg-1"><button class="btn btn-outline-secondary w-100 h-100"
+                data-id="${id}" onclick="torol(this)">🗑️</button></div>
+                <div class="col-4 col-sm-3 col-md-2 col-lg-1"><button class="btn btn-outline-secondary w-100 h-100"
+                >✏️</button></div>
             </div>
         </div>
         `;
@@ -25,7 +28,7 @@ function todoBetolt() {
         .then((adatok) => {
             document.getElementById("lista").innerText = "";
             adatok.forEach((todo) => {
-                document.getElementById("lista").innerHTML += tobbSor(todo.szoveg, todo.id);
+                document.getElementById("lista").innerHTML += tobbSor(todo.szoveg, todo.id, todo.vege != "0000-00-00 00:00:00");
             });
         });
 }
@@ -83,3 +86,30 @@ function torol(elem) {
             }
         })
 }
+
+function pipa(id) {
+
+    let json = {
+        memberid: "asd",
+    };
+
+    fetch("todo/" + id, {
+        method: "PUT",
+        body: JSON.stringify(json)
+    })
+        .then(x => x.json())
+        .then(y => {
+            if (y.status == "success") {
+                todoBetolt();
+            } else {
+                document.getElementById("errorMessage").innerText = y.errorMessage;
+                document.getElementById("errorRow").classList.remove("d-none");
+                setTimeout(() => {
+                    document.getElementById("errorMessage").innerText = "";
+                    document.getElementById("errorRow").classList.add("d-none");
+                }, 5000);
+            }
+        })
+}
+
+
