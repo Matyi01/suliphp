@@ -11,7 +11,6 @@ if (isset($_GET["path"])) {
     $conn = mysqli_connect($servername, $username, $password, $db);
     $apiParts = explode("/", $_GET["path"]);
 
-
     if ($apiParts[0] == "todo") {
         if ($_SERVER["REQUEST_METHOD"] == "GET") {
             $query = "SELECT id, szoveg, datum, vege FROM todo";
@@ -30,6 +29,25 @@ if (isset($_GET["path"])) {
 
             if (isset($input["memberid"])) {
                 $query = "INSERT INTO todo (szoveg, datum) VALUES('" . mysqli_real_escape_string($conn, $input["feladat"]) . "', now())";
+
+                $results = mysqli_query($conn, $query);
+
+                $jsonTomb = [];
+                if (!$results) {
+                    $jsonTomb["status"] = "error";
+                    $jsonTomb["errorMessage"] = mysqli_error($conn);
+                } else {
+                    $jsonTomb["status"] = "success";
+                }
+                echo json_encode($jsonTomb);
+            }
+        } elseif ($_SERVER["REQUEST_METHOD"] == "DELETE") {
+
+            $input = json_decode(file_get_contents("php://input"), true);
+
+            if (isset($input["memberid"])) {
+
+                $query = "DELETE FROM todo WHERE id = " . $apiParts[1];
 
                 $results = mysqli_query($conn, $query);
 

@@ -5,14 +5,14 @@ function init() {
     todoBetolt();
 }
 
-function tobbSor(sor) {
+function tobbSor(szoveg, id) {
     return `
         <div class="p-2 bg-light rounded-3 mb-3">
             <div class="container">
                 <div class="row pt-3 pb-3">
-                <div class="col-9" style="font-size: 1.2rem">${sor}</div>
+                <div class="col-9" style="font-size: 1.2rem">${szoveg}</div>
                 <div class="col-1"><button class="btn btn-outline-secondary w-100 h-100">✔</button></div>
-                <div class="col-1"><button class="btn btn-outline-secondary w-100 h-100">🗑️</button></div>
+                <div class="col-1"><button class="btn btn-outline-secondary w-100 h-100" data-id="${id}" onclick="torol(this)">🗑️</button></div>
                 <div class="col-1"><button class="btn btn-outline-secondary w-100 h-100">✏️</button></div>
             </div>
         </div>
@@ -23,8 +23,9 @@ function todoBetolt() {
     fetch("todo")
         .then((x) => x.json())
         .then((adatok) => {
+            document.getElementById("lista").innerText = "";
             adatok.forEach((todo) => {
-                document.getElementById("lista").innerHTML += tobbSor(todo.szoveg);
+                document.getElementById("lista").innerHTML += tobbSor(todo.szoveg, todo.id);
             });
         });
 }
@@ -48,7 +49,31 @@ function hozzaAd() {
                 document.getElementById("szoveg").value = "";
                 todoBetolt();
             } else {
-                console.log(y)
+                document.getElementById("errorMessage").innerText = y.errorMessage;
+                document.getElementById("errorRow").classList.remove("d-none");
+                setTimeout(() => {
+                    document.getElementById("errorMessage").innerText = "";
+                    document.getElementById("errorRow").classList.add("d-none");
+                }, 5000);
+            }
+        })
+}
+
+function torol(elem) {
+
+    let json = {
+        memberid: "asd"
+    };
+
+    fetch("todo/" + elem.dataset.id, {
+        method: "DELETE",
+        body: JSON.stringify(json)
+    })
+        .then(x => x.json())
+        .then(y => {
+            if (y.status == "success") {
+                todoBetolt();
+            } else {
                 document.getElementById("errorMessage").innerText = y.errorMessage;
                 document.getElementById("errorRow").classList.remove("d-none");
                 setTimeout(() => {
