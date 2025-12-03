@@ -7,9 +7,9 @@ function init() {
 
 function tobbSor(szoveg, id, vegeVan) {
     return `
-        <div class="p-2 bg-light rounded-3 mb-3 ${vegeVan?"disabled":""}">
+        <div class="p-2 bg-light rounded-3 mb-3">
             <div class="container">
-                <div class="row pt-3 pb-3">
+                <div class="row pt-3 pb-3 ${vegeVan ? "bg-success" : ""}asdasd">
                 <div class="col-12 col-lg-9" style="font-size: 1.2rem">${szoveg}</div>
                 <div class="col-4 col-sm-3 col-md-2 col-lg-1"><button class="btn btn-outline-secondary w-100 h-100"
                 onclick="pipa(${id})">✔</button></div>
