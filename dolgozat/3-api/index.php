@@ -110,29 +110,22 @@ if (isset($_GET["path"])) {
 
                     $input = json_decode(file_get_contents("php://input"), true);
 
+                    $talalat = false;
                     foreach ($adatokTomb as $e) {
-                        if ($e["tanc"] == $input["tanc"] && ($e["lany"] == $input["ember"] || $e["fiu"] == $input["ember"])) {
-                            $par = "";
-                            if ($e["lany"] == $input["ember"]) {
-                                $par = $e["fiu"];
-                            } else {
-                                $par = $e["lany"];
-                            }
-
-                            $jsonTomb = [];
-                            if ($par == "") {
-                                $jsonTomb["eredmeny"] = $input["ember"] . " nem táncolt " . $input["tanc"] . "-t.";
-                            } else {
-                                $jsonTomb["eredmeny"] = "A " . $input["tanc"] . " bemutatóján " . $input["ember"] . " párja " . $par . " volt.";
-                            }
-                            echo json_encode($jsonTomb);
-                            return;
+                        if (($e["lany"] == $input["ember"] || $e["fiu"] == $input["ember"]) && $e["tanc"] == $input["tanc"]) {
+                            $talalat = true;
+                            break;
                         }
                     }
+                    $jsonTomb = [];
+                    if ($talalat) {
+                        $jsonTomb["eredmeny"] = $input["ember"] . " táncolta a " . $input["tanc"] . " táncot.";
+                    } else {
+                        $jsonTomb["eredmeny"] = "error: " . $input["ember"] . " nem táncolta a " . $input["tanc"] . " táncot.";
+                    }
+                    echo json_encode($jsonTomb);
                 } elseif ($apiParts[1] == 6) {
                     //6. feladat
-                    //Írja ki a képernyőre, hogy melyik fiú szerepelt a legtöbbször a fiúk közül, és melyik lány a lányok közül!
-                    //Ha több fiú, vagy több lány is megfelel a feltételeknek, akkor valamennyi fiú, illetve valamennyi lány nevét írja ki!
 
                     $input = json_decode(file_get_contents("php://input"), true);
 
