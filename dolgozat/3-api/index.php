@@ -121,7 +121,7 @@ if (isset($_GET["path"])) {
                     if ($talalat) {
                         $jsonTomb["eredmeny"] = $input["ember"] . " táncolta a " . $input["tanc"] . " táncot.";
                     } else {
-                        $jsonTomb["eredmeny"] = "error: " . $input["ember"] . " nem táncolta a " . $input["tanc"] . " táncot.";
+                        $jsonTomb["eredmeny"] = $input["ember"] . " nem táncolt " . $input["tanc"] . "-t.";
                     }
                     echo json_encode($jsonTomb);
                 } elseif ($apiParts[1] == 6) {
@@ -158,6 +158,33 @@ if (isset($_GET["path"])) {
                     $jsonTomb = [];
                     $jsonTomb["eredmeny"] = "Legtöbbször táncoló fiúk: " . implode(", ", $leggyakoribbFiuk) .
                         " Legtöbbször táncoló lányok: " . implode(", ", $leggyakoribbLanyok);
+                    echo json_encode($jsonTomb);
+                } elseif ($apiParts[1] == 7) {
+                    //7. feladat
+
+                    $tancSzamlalo = [];
+                    foreach ($adatokTomb as $e) {
+                        if (!isset($tancSzamlalo[$e["tanc"]])) {
+                            $tancSzamlalo[$e["tanc"]] = [
+                                "db" => 0,
+                                "parok" => []
+                            ];
+                        }
+                        $tancSzamlalo[$e["tanc"]]["db"]++;
+                        $tancSzamlalo[$e["tanc"]]["parok"][] = ["fiu" => $e["fiu"], "lany" => $e["lany"]];
+                    }
+                    $maxTanc = 0;
+                    $leggyakoribbTanc = "";
+                    foreach ($tancSzamlalo as $tanc => $adat) {
+                        if ($adat["db"] > $maxTanc) {
+                            $maxTanc = $adat["db"];
+                            $leggyakoribbTanc = $tanc;
+                        }
+                    }
+                    $jsonTomb = [];
+
+                    $jsonTomb["eredmeny"] = "Legtöbbször táncolt tánc: " . $leggyakoribbTanc;
+                    $jsonTomb["parok"] = $tancSzamlalo[$leggyakoribbTanc]["parok"];
                     echo json_encode($jsonTomb);
                 }
             }

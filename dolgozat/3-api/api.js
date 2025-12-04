@@ -79,6 +79,14 @@ function tancValaszt2() {
     aktivTanc2 = document.getElementById("tancValaszto2").value;
 }
 
+function tablazatLetrehoz(parok) {
+    let szoveg = "<tr><th>Fiúk</th> <th>Lányok</th></tr>";
+    parok.forEach(e => {
+        szoveg += `<tr><td>${e.fiu}</td><td>${e.lany}</td></tr>`;
+    });
+    document.getElementById("tablazat").innerHTML = szoveg;
+}
+
 function feladat2() {
     fetch("feladat/2", {
         method: "POST",
@@ -145,7 +153,7 @@ function feladat5() {
 }
 
 function feladat6() {
-        fetch("feladat/6", {
+    fetch("feladat/6", {
         method: "POST",
     })
         .then(x => x.json())
@@ -156,3 +164,16 @@ function feladat6() {
         })
 }
 
+function feladat7() {
+    fetch("feladat/7", {
+        method: "POST",
+    })
+        .then(x => x.json())
+        .then(y => {
+            document.getElementById("gomb-7").classList.add("d-none");
+            document.getElementById("feladat-7").classList.remove("d-none");
+            document.getElementById("tablazat").classList.remove("d-none");
+            document.getElementById("feladat-7").innerText = y.eredmeny;
+            tablazatLetrehoz(y.parok);
+        })
+}
