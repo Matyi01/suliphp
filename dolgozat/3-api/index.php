@@ -119,7 +119,12 @@ if (isset($_GET["path"])) {
                     }
                     $jsonTomb = [];
                     if ($talalat) {
-                        $jsonTomb["eredmeny"] = $input["ember"] . " táncolta a " . $input["tanc"] . " táncot.";
+                        if ($e["lany"] == $input["ember"]) {
+                            $par = $e["fiu"];
+                        } else {
+                            $par = $e["lany"];
+                        }
+                        $jsonTomb["eredmeny"] = "A " . $input["tanc"] . " bemutatóján " . $input["ember"] . " párja " . $par . " volt.";
                     } else {
                         $jsonTomb["eredmeny"] = $input["ember"] . " nem táncolt " . $input["tanc"] . "-t.";
                     }

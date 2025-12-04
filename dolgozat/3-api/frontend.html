@@ -10,6 +10,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-image: linear-gradient(to right top, #9b6e6e, #ad8b94, #bda9b5, #cfc9d0, #e7e7e7);
+        }
+
+        body,
+        html {
+            height: 100%;
+        }
+    </style>
 </head>
 
 <body>
@@ -44,9 +54,9 @@
                 </div>
             </div>
         </div>
-        <div class="row p-3">
+        <div class="row p-3 pt-0">
             <div class="col-12 col-md-4 p-2">
-                <div class="rounded-3 bg-light p-3 h-100">
+                <div class="rounded-3 bg-light p-3">
                     <h4>5. Feladat</h4>
                     <select id="emberValaszto2" onchange="emberValaszt2()" class="form-select mb-2"></select>
                     <select id="tancValaszto2" onchange="tancValaszt2()" class="form-select mb-2"></select>
@@ -55,14 +65,14 @@
                 </div>
             </div>
             <div class="col-12 col-md-4 p-2">
-                <div class="rounded-3 bg-light p-3 h-100">
+                <div class="rounded-3 bg-light p-3">
                     <h4>6. Feladat</h4>
                     <button class="btn btn-outline-secondary" onclick="feladat6()" id="gomb-6">Mutat</button>
                     <div id="feladat-6" class="d-none"></div>
                 </div>
             </div>
             <div class="col-12 col-md-4 p-2">
-                <div class="rounded-3 bg-light p-3 h-100">
+                <div class="rounded-3 bg-light p-3">
                     <h4>7. Feladat</h4>
                     <button class="btn btn-outline-secondary" onclick="feladat7()" id="gomb-7">Mutat</button>
                     <div id="feladat-7" class="d-none"></div>
