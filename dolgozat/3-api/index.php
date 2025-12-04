@@ -94,16 +94,14 @@ if (isset($_GET["path"])) {
 
                     $input = json_decode(file_get_contents("php://input"), true);
 
-                    $db = 0;
-
+                    $tancok = [];
                     foreach ($adatokTomb as $e) {
                         if ($e["lany"] == $input["ember"] || $e["fiu"] == $input["ember"]) {
-                            $db++;
+                            $tancok[] = $e["tanc"];
                         }
                     }
-
                     $jsonTomb = [];
-                    $jsonTomb["eredmeny"] = $input["ember"] . " " . $db . " táncot táncolt";
+                    $jsonTomb["eredmeny"] = $input["ember"] . " a következő táncokban szerepelt: " . implode(", ", $tancok);
                     echo json_encode($jsonTomb);
                 } elseif ($apiParts[1] == 5) {
                     //5. feladat
@@ -178,6 +176,15 @@ if (isset($_GET["path"])) {
                         $tancSzamlalo[$e["tanc"]]["db"]++;
                         $tancSzamlalo[$e["tanc"]]["parok"][] = ["fiu" => $e["fiu"], "lany" => $e["lany"]];
                     }
+                    
+                    //nevek sorendbe rendezése lányok szerint
+                    foreach ($tancSzamlalo as $tanc => &$adat) {
+                        usort($adat["parok"], function ($a, $b) {
+                            return strcmp($a["lany"], $b["lany"]);
+                        });
+                    }
+                    unset($adat); // reference tisztítása
+
                     $maxTanc = 0;
                     $leggyakoribbTanc = "";
                     foreach ($tancSzamlalo as $tanc => $adat) {
@@ -187,7 +194,6 @@ if (isset($_GET["path"])) {
                         }
                     }
                     $jsonTomb = [];
-
                     $jsonTomb["eredmeny"] = "Legtöbbször táncolt tánc: " . $leggyakoribbTanc;
                     $jsonTomb["parok"] = $tancSzamlalo[$leggyakoribbTanc]["parok"];
                     echo json_encode($jsonTomb);
