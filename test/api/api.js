@@ -9,14 +9,14 @@ function tobbSor(szoveg, id, vegeVan) {
     return `
         <div class="p-2 bg-light rounded-3 mb-3">
             <div class="container">
-                <div class="row pt-3 pb-3 ${vegeVan ? "bg-success" : ""}asdasd">
+                <div class="row pt-3 pb-3 ">
                 <div class="col-12 col-lg-9" style="font-size: 1.2rem">${szoveg}</div>
+                <div class="col-4 col-sm-3 col-md-2 col-lg-1"><button class="btn btn-outline-secondary w-100 h-100
+                ${vegeVan ? "bg-success" : ""}" onclick="pipa(${id})">✔</button></div>
                 <div class="col-4 col-sm-3 col-md-2 col-lg-1"><button class="btn btn-outline-secondary w-100 h-100"
-                onclick="pipa(${id})">✔</button></div>
+                data-id="${id}" ${!vegeVan ? "onclick=\"torol(this)\"" : ""} >🗑️</button></div>
                 <div class="col-4 col-sm-3 col-md-2 col-lg-1"><button class="btn btn-outline-secondary w-100 h-100"
-                data-id="${id}" onclick="torol(this)">🗑️</button></div>
-                <div class="col-4 col-sm-3 col-md-2 col-lg-1"><button class="btn btn-outline-secondary w-100 h-100"
-                >✏️</button></div>
+                ${!vegeVan ? "onclick=\"szerkeszt(" + id + ")\"" : ""} >✏️</button></div>
             </div>
         </div>
         `;
@@ -112,4 +112,27 @@ function pipa(id) {
         })
 }
 
+function szerkeszt(id) {
 
+    let json = {
+        memberid: "asd",
+    };
+
+    fetch("todo/" + id, {
+        method: "GET",
+        body: JSON.stringify(json)
+    })
+        .then(x => x.json())
+        .then(y => {
+            if (y.status == "success") {
+                console.log(y);
+            } else {
+                document.getElementById("errorMessage").innerText = y.errorMessage;
+                document.getElementById("errorRow").classList.remove("d-none");
+                setTimeout(() => {
+                    document.getElementById("errorMessage").innerText = "";
+                    document.getElementById("errorRow").classList.add("d-none");
+                }, 5000);
+            }
+        })
+}
