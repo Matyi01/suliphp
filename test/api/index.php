@@ -13,16 +13,46 @@ if (isset($_GET["path"])) {
 
     if ($apiParts[0] == "todo") {
         if ($_SERVER["REQUEST_METHOD"] == "GET") {
-            $query = "SELECT id, szoveg, datum, vege FROM todo";
-            $results = mysqli_query($conn, $query);
-            $jsonTomb = [];
+            if (isset($apiParts[1])) {
+                //phpinfo(32);
+                if (isset($_GET["memberid"])) {
 
-            while ($row = mysqli_fetch_assoc($results)) {
-                $jsonTomb[] = $row;
+                    $query = "SELECT id, szoveg, datum, vege FROM todo WHERE id = " . mysqli_real_escape_string($conn, $apiParts[1]);
+                    $results = mysqli_query($conn, $query);
+
+                    $jsonTomb = [];
+
+                    if (mysqli_num_rows($results) == 0) {
+
+                        $jsonTomb["status"] = "error";
+                        $jsonTomb["errorMessage"] = "Hiba: Érvénytelen azonosító! (" . $apiParts[1] . ")";
+
+                    } else {
+                        
+                        $jsonTomb["status"] = "success";
+                        $jsonTomb["data"] = [];
+
+                        while ($row = mysqli_fetch_assoc($results)) {
+                            $jsonTomb["data"][] = $row;
+                        }
+                    }
+
+
+                    $json = json_encode($jsonTomb);
+                    echo $json;
+                }
+            } else {
+                $query = "SELECT id, szoveg, datum, vege FROM todo";
+                $results = mysqli_query($conn, $query);
+                $jsonTomb = [];
+
+                while ($row = mysqli_fetch_assoc($results)) {
+                    $jsonTomb[] = $row;
+                }
+
+                $json = json_encode($jsonTomb);
+                echo $json;
             }
-
-            $json = json_encode($jsonTomb);
-            echo $json;
 
         } elseif ($_SERVER["REQUEST_METHOD"] == "POST") {
             $input = json_decode(file_get_contents("php://input"), true);

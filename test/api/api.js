@@ -90,7 +90,7 @@ function torol(elem) {
 function pipa(id) {
 
     let json = {
-        memberid: "asd",
+        memberid: "asd"
     };
 
     fetch("todo/" + id, {
@@ -115,12 +115,11 @@ function pipa(id) {
 function szerkeszt(id) {
 
     let json = {
-        memberid: "asd",
+        memberid: "asd"
     };
 
-    fetch("todo/" + id, {
-        method: "GET",
-        body: JSON.stringify(json)
+    fetch("todo/" + id + "?memberid=" + json.memberid, {
+        method: "GET"
     })
         .then(x => x.json())
         .then(y => {
