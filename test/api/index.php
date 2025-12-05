@@ -28,8 +28,8 @@ if (isset($_GET["path"])) {
                         $jsonTomb["errorMessage"] = "Hiba: Érvénytelen azonosító! (" . $apiParts[1] . ")";
 
                     } else {
-                        
-                        $jsonTomb["status"] = "success";
+
+                        $jsonTomb = ["status" => "success"];
                         $jsonTomb["data"] = [];
 
                         while ($row = mysqli_fetch_assoc($results)) {

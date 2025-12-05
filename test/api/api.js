@@ -33,7 +33,9 @@ function todoBetolt() {
         });
 }
 
-function hozzaAd() {
+function hozzaAd(id = -1) {
+    //-1 az uj
+    //másik id a szerkesztes
 
     let szoveg = document.getElementById("szoveg").value;
 
@@ -42,6 +44,10 @@ function hozzaAd() {
         feladat: szoveg
     };
 
+    //TODO ha van id akkor put (id != -1)
+    //ha nincs akkor post (id == -1)
+
+    
     fetch("todo/", {
         method: "POST",
         body: JSON.stringify(json)
@@ -125,6 +131,10 @@ function szerkeszt(id) {
         .then(y => {
             if (y.status == "success") {
                 console.log(y);
+                document.getElementById("szoveg").value = y.data[0].szoveg;
+                //document.getElementById("plusGomb").onclick = "hozzaAd(" + y.data[0].id + ")";
+                document.getElementById("plusGomb").setAttribute("onclick", "hozzaAd(" + y.data[0].id + ")");
+
             } else {
                 document.getElementById("errorMessage").innerText = y.errorMessage;
                 document.getElementById("errorRow").classList.remove("d-none");
