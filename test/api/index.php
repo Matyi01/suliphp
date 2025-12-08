@@ -14,7 +14,6 @@ if (isset($_GET["path"])) {
     if ($apiParts[0] == "todo") {
         if ($_SERVER["REQUEST_METHOD"] == "GET") {
             if (isset($apiParts[1])) {
-                //phpinfo(32);
                 if (isset($_GET["memberid"])) {
 
                     $query = "SELECT id, szoveg, datum, vege FROM todo WHERE id = " . mysqli_real_escape_string($conn, $apiParts[1]);
@@ -76,8 +75,11 @@ if (isset($_GET["path"])) {
             $input = json_decode(file_get_contents("php://input"), true);
 
             if (isset($input["memberid"])) {
-
-                $query = "DELETE FROM todo WHERE id = " . mysqli_real_escape_string($conn, $apiParts[1]);
+                if ($apiParts[1] == "all") {
+                    $query = "DELETE FROM todo WHERE vege IS NOT NULL";
+                } else {
+                    $query = "DELETE FROM todo WHERE id = " . mysqli_real_escape_string($conn, $apiParts[1]);
+                }
 
                 $results = mysqli_query($conn, $query);
 
@@ -93,8 +95,18 @@ if (isset($_GET["path"])) {
         } elseif ($_SERVER["REQUEST_METHOD"] == "PUT") {
             $input = json_decode(file_get_contents("php://input"), true);
 
-            if (isset($input["memberid"])) {
-                $query = "UPDATE todo SET vege = NOW() WHERE id = " . mysqli_real_escape_string($conn, $apiParts[1]);
+            if (isset($input["memberid"]) && isset($apiParts[2])) {
+                if ($apiParts[2] == "edit") {
+                    $query = "UPDATE todo 
+                    SET szoveg = '" . mysqli_real_escape_string($conn, $input["feladat"]) . "' 
+                    WHERE id = " . mysqli_real_escape_string($conn, $apiParts[1]);
+                } elseif ($apiParts[2] == "pipa") {
+                    $query = "UPDATE todo 
+                    SET vege = NOW() 
+                    WHERE id = " . mysqli_real_escape_string($conn, $apiParts[1]);
+                } else {
+                    $query = "";
+                }
 
                 $results = mysqli_query($conn, $query);
 

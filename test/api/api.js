@@ -24,18 +24,27 @@ function tobbSor(szoveg, id, vegeVan) {
 
 function todoBetolt() {
     fetch("todo")
-        .then((x) => x.json())
-        .then((adatok) => {
+        .then(x => x.json())
+        .then(y => {
             document.getElementById("lista").innerText = "";
-            adatok.forEach((todo) => {
+            y.forEach((todo) => {
                 document.getElementById("lista").innerHTML += tobbSor(todo.szoveg, todo.id, todo.vege != "0000-00-00 00:00:00");
             });
+            if (y.every(adat => adat.vege != "0000-00-00 00:00:00") && y.length != 0) {
+                let minentTorloGomb = document.createElement("button");
+                minentTorloGomb.classList.add("btn", "btn-danger", "w-100", "mb-3", "p-3", "fs-4");
+                minentTorloGomb.innerText = "Mindent töröl";
+                minentTorloGomb.setAttribute("onclick", "mindentTorol()");
+                document.getElementById("lista").insertBefore(minentTorloGomb, document.getElementById("lista").firstChild);
+            }
         });
 }
 
 function hozzaAd(id = -1) {
     //-1 az uj
     //másik id a szerkesztes
+
+
 
     let szoveg = document.getElementById("szoveg").value;
 
@@ -47,25 +56,51 @@ function hozzaAd(id = -1) {
     //TODO ha van id akkor put (id != -1)
     //ha nincs akkor post (id == -1)
 
-    
-    fetch("todo/", {
-        method: "POST",
-        body: JSON.stringify(json)
-    })
-        .then(x => x.json())
-        .then(y => {
-            if (y.status == "success") {
-                document.getElementById("szoveg").value = "";
-                todoBetolt();
-            } else {
-                document.getElementById("errorMessage").innerText = y.errorMessage;
-                document.getElementById("errorRow").classList.remove("d-none");
-                setTimeout(() => {
-                    document.getElementById("errorMessage").innerText = "";
-                    document.getElementById("errorRow").classList.add("d-none");
-                }, 5000);
-            }
+    if (id == -1) {
+        //hozzadás
+
+        fetch("todo/", {
+            method: "POST",
+            body: JSON.stringify(json)
         })
+            .then(x => x.json())
+            .then(y => {
+                if (y.status == "success") {
+                    document.getElementById("szoveg").value = "";
+                    todoBetolt();
+                } else {
+                    document.getElementById("errorMessage").innerText = y.errorMessage;
+                    document.getElementById("errorRow").classList.remove("d-none");
+                    setTimeout(() => {
+                        document.getElementById("errorMessage").innerText = "";
+                        document.getElementById("errorRow").classList.add("d-none");
+                    }, 5000);
+                }
+            })
+
+    } else {
+        //szerkesztés
+        fetch("todo/" + id + "/edit", {
+            method: "PUT",
+            body: JSON.stringify(json)
+        })
+            .then(x => x.json())
+            .then(y => {
+                if (y.status == "success") {
+                    document.getElementById("szoveg").value = "";
+                    todoBetolt();
+                } else {
+                    document.getElementById("errorMessage").innerText = y.errorMessage;
+                    document.getElementById("errorRow").classList.remove("d-none");
+                    setTimeout(() => {
+                        document.getElementById("errorMessage").innerText = "";
+                        document.getElementById("errorRow").classList.add("d-none");
+                    }, 5000);
+                }
+            })
+
+    }
+
 }
 
 function torol(elem) {
@@ -99,7 +134,7 @@ function pipa(id) {
         memberid: "asd"
     };
 
-    fetch("todo/" + id, {
+    fetch("todo/" + id + "/pipa", {
         method: "PUT",
         body: JSON.stringify(json)
     })
@@ -119,7 +154,6 @@ function pipa(id) {
 }
 
 function szerkeszt(id) {
-
     let json = {
         memberid: "asd"
     };
@@ -135,6 +169,29 @@ function szerkeszt(id) {
                 //document.getElementById("plusGomb").onclick = "hozzaAd(" + y.data[0].id + ")";
                 document.getElementById("plusGomb").setAttribute("onclick", "hozzaAd(" + y.data[0].id + ")");
 
+            } else {
+                document.getElementById("errorMessage").innerText = y.errorMessage;
+                document.getElementById("errorRow").classList.remove("d-none");
+                setTimeout(() => {
+                    document.getElementById("errorMessage").innerText = "";
+                    document.getElementById("errorRow").classList.add("d-none");
+                }, 5000);
+            }
+        })
+}
+
+function mindentTorol() {
+    let json = {
+        memberid: "asd"
+    };
+    fetch("todo/all", {
+        method: "DELETE",
+        body: JSON.stringify(json)
+    })
+        .then(x => x.json())
+        .then(y => {
+            if (y.status == "success") {
+                todoBetolt();
             } else {
                 document.getElementById("errorMessage").innerText = y.errorMessage;
                 document.getElementById("errorRow").classList.remove("d-none");
