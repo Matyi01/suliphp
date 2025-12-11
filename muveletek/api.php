@@ -43,22 +43,22 @@ osztás
 
 //phpinfo(32);
 
-$apiParts = explode("/", $_GET["pazh"]);
+$apiParts = explode("/", $_GET["path"]);
 
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
 
     switch ($apiParts[0]) {
         case "osszead":
-            require "includes/osszead.php";
+            include_once "includes/osszead.php";
+            echo osszead($apiParts);
             break;
         case "kivon":
-            require "includes/kivon.php";
+            include_once "includes/kivon.php";
+            echo kivon($apiParts);
             break;
         case "szoroz":
-            require "includes/szoroz.php";
             break;
         case "oszt":
-            require "includes/oszt.php";
             break;
         default:
             echo "Hiba: Érvénytelen művelet! (" . $apiParts[0] . ")";
