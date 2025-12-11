@@ -14,7 +14,7 @@ include_once("szamKeres.php");
 function kivon($szamok){
     $csakSzamok = szamKeres($szamok);
     if (sizeof($csakSzamok) < 2) {
-        return "Hiba: legalább két szám kell!";
+        return $GLOBALS["lang"]["Hiba: legalább két szám kell!"];
     }
     return 2 * $csakSzamok[0] - array_sum($csakSzamok);
 }

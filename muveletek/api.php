@@ -43,6 +43,14 @@ osztás
 
 //phpinfo(32);
 
+include_once("lang/hu.php");
+
+if (isset($_GET["lang"])) {
+    if ($_GET["lang"] == "en") {
+        include_once("lang/en.php");
+    }
+}
+
 $apiParts = explode("/", $_GET["path"]);
 
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
@@ -57,16 +65,20 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
             echo kivon($apiParts);
             break;
         case "szoroz":
+            include_once "includes/szoroz.php";
+            echo szoroz($apiParts);
             break;
         case "oszt":
+            include_once "includes/oszt.php";
+            echo oszt($apiParts);
             break;
         default:
-            echo "Hiba: Érvénytelen művelet! (" . $apiParts[0] . ")";
+            echo sprintf($GLOBALS["lang"]["Hiba: Érvénytelen művelet! (%s)"], $apiParts[0]);
             break;
     }
 
 } else {
-    echo "Hibe, nem GET";
+    echo $GLOBALS["lang"]["Hiba, nem GET"];
 }
 
 

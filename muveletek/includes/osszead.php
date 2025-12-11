@@ -6,7 +6,7 @@ function osszead($szamok){
     // ami kell: [1,2,3,4,12]
     $csakSzamok = szamKeres($szamok);
     if (sizeof($csakSzamok) < 2) {
-        return "Hiba: legalább két szám kell!";
+        return $GLOBALS["lang"]["Hiba: legalább két szám kell!"];
     }
     return array_sum($csakSzamok);
 }
