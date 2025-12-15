@@ -1,0 +1,100 @@
+<!--
+A megadott html sablont kell használni, de azt csak javascripttel lehet bővíteni!
+Az images.json-t kell feldolgozni, a benne lévő adatokat a megfelelő módon felhasználva, egy táblázatban kell megjeleníteni.
+A json-ban megadott adatokat használjátok, ne másoljátok ki onnan!
+Tipp: a képnév 3 részből áll, a 2. nincs használva ebben a feladatban, a harmadik pedig a sorszám.
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dolgozat</title>
+	<style>
+		td {
+			padding: 0;
+			font-size: 0;
+		}
+
+		table {
+			border-spacing: 0;
+			margin: auto;
+		}
+	</style>
+</head>
+
+<body>
+	<script>
+		// ide írd a programot
+
+		function fileBetolt() {
+			fetch("images.json")
+				.then(x => x.json())
+				.then(y => {
+					console.log(y)
+
+					let cols = y.tableSize.cols;
+					let rows = y.tableSize.rows;
+
+					y.data.sort(function (a, b) { return parseInt(a.src.split("_")[2]) - parseInt(b.src.split("_")[2]) });
+
+					
+					tablaKeszit(cols, rows, y)
+
+				});
+		}
+
+		function tablaKeszit(cols, rows, data) {
+			let body = document.body;
+			let tabla = document.createElement("table");
+			tabla.id = "tabla";
+			for (let i = 0; i < rows; i++) {
+
+
+				let row = document.createElement("tr")
+
+				row.id = i;
+				row.class = "row";
+
+
+
+				for (let j = 0; j < cols; j++) {
+
+					let col = document.createElement("td");
+
+					col.id = j;
+					col.class = "col";
+
+					let img = document.createElement("img")
+
+					img.src = data.baseurl + data.data[i * cols + j].src;
+
+					img.style.height = data.data[i * cols + j].size.heigt + "px";
+					img.style.width = data.data[i * cols + j].size.widt + "px";
+
+					col.appendChild(img)
+
+					row.appendChild(col);
+
+				}
+
+				tabla.appendChild(row);
+
+			}
+
+			body.appendChild(tabla);
+
+		}
+
+
+		fileBetolt()
+
+
+
+
+	</script>
+</body>
+
+</html>
