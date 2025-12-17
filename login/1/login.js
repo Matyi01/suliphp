@@ -1,0 +1,50 @@
+/*
+
+login:
+    adatbekérés
+        felhasználónév
+        jelszó
+    elküldés az apinak
+        post
+    api feldolgozza
+        megkapja
+            felhasználónév
+            jelszó
+        adarbázis ellenőrzés
+            nev-jelszó páros
+            jelszo: password_hash()???
+        ha nem stimmel
+            akkor hiba: nem jo adat
+        ha jok az adatok
+            token generálás
+            elmenti az adatbázisba
+            lejárati időt is
+
+            token visszaküldése (json-ben)
+
+    frontend megkapja
+        json feldolgozás
+        hiba esetén hibaüzenet megjelenítése
+        ha van hiba
+        token eltárolása
+            süti vagy localstorage
+        belépett tartalom megjelenítése
+
+login után 
+bármilyen kommunikációnál el kell küldeni a tokent
+    api feldolgozza
+    token ellenőrzése
+        ha még jó
+            kért feladatok elvégzése
+            a token lejárati idejének frissítése
+            eredmény visszaadaása
+        ha nem jó
+            hiba: lejárt/kilépett/újra belépés
+
+    adatok feldolgozása
+
+
+
+
+
+*/
