@@ -46,5 +46,29 @@ bármilyen kommunikációnál el kell küldeni a tokent
 
 
 
+regisztráció:
+    form 
+        username
+        email
+        jelszo * 2
+        elfelejtett jelszo link
 
 */
+
+
+function login(event) {
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+
+    fetch("login", {
+        method: "POST",
+        body: JSON.stringify({
+            username: username,
+            password: password
+        })
+    })
+        .then(response => response.json())
+        .then(json => {
+            console.log(json);
+        })
+}
