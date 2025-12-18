@@ -70,5 +70,33 @@ function login(event) {
         .then(response => response.json())
         .then(json => {
             console.log(json);
+            if (json.status == "success") {
+                //sikeres bejelentkezés
+                localStorage.setItem("token", json.data.token);
+                localStorage.setItem("expires", json.data.expires);
+                document.getElementById("login").classList.add("d-none");
+                document.getElementById("loggedIn").classList.remove("d-none");
+            } else {
+                //hiba
+                console.log(json.errorMessage);
+            }
+
         })
 }
+
+function logInCheck() {
+
+    fetch("logincheck", {
+        method: "GET",
+        headers: {
+            "Authorization": "Bearer " + localStorage.getItem("token"),
+            "Content-Type": "application/json"
+        }
+    })
+        .then(response => response.json())
+        .then(json => {
+            console.log(json);
+
+        });
+}
+

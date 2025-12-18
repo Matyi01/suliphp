@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="login.css">
 </head>
 
-<body>
+<body onload="logInCheck()">
 
-    <div class="container">
+    <div class="container" id="login">
         <div class="row ">
             <div class="col-4 offset-4 mt-5 p-4 border rounded-3 bg-light">
                 <h1 class="col-12 mb-4 text-center">
@@ -21,14 +21,29 @@
                 </h1>
                 <div class="col-12 mb-3">
                     <label for="username" class="form-label">Felhasználónév: </label>
-                    <input type="text" id="username" name="username" class="form-control d-inline-block" placeholder="Név">
+                    <input type="text" id="username" name="username" class="form-control d-inline-block"
+                        placeholder="Név">
                 </div>
                 <div class="col-12 mb-3">
                     <label for="password" class="form-label">Jelszó: </label>
-                    <input type="password" id="password" name="password" class="form-control d-inline-block" placeholder="Jelszó">
+                    <input type="password" id="password" name="password" class="form-control d-inline-block"
+                        placeholder="Jelszó">
                 </div>
                 <div class="col-12 text-center">
                     <button class="btn btn-secondary" onclick="login()">Belépés</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-none" id="loggedIn">
+        <div class="row ">
+            <div class="col-4 offset-4 mt-5 p-4 border rounded-3 bg-light">
+                <h1 class="col-12 mb-4 text-center">
+                    Belépés
+                </h1>
+                <div class="col-12 mb-3">
+                    Sikeres belépés!
                 </div>
             </div>
         </div>
