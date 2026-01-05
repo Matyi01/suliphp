@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<!--
+A megadott api segítségével készítsetek egy reszponzív frontendet, Bootstrap segítségével,
+ahol egy navbar segítségével lehet választani, hogy melyik funkciót (fakt, szorzat, haromszog, random, lorem) akarjuk látni!
+Csak az aktív legyen látható, a többi nem!  A kommunikációhoz a fetch API-t használjátok! 
+Legyen ízlésesen megformázva, fejléccel, lábléccel, címmel, alcímekkel, magyarázó szövegekkel, eredmény megjelenítéssel.
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolgozat</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <style>
+        .nav-link {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row mb-4" id="navbar">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-md bg-light rounded-bottom-3">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item" onclick="faktShow()">
+                                    <a class="nav-link">Faktoriális</a>
+                                </li>
+                                <li class="nav-item" onclick="szorzatShow()">
+                                    <a class="nav-link">Szorzat</a>
+                                </li>
+                                <li class="nav-item" onclick="haromszogShow()">
+                                    <a class="nav-link">Háromszög</a>
+                                </li>
+                                <li class="nav-item" onclick="randomShow()">
+                                    <a class="nav-link">Random</a>
+                                </li>
+                                <li class="nav-item" onclick="loremShow()">
+                                    <a class="nav-link">Lorem ipsum</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="container" id="home">
+            <div class="row mt-4">
+                <div class="col-12">
+                    <h2>
+                        Üdvözöllek a weboldalamon!
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container d-none" id="fakt">
+            <div class="row mb-3">
+                <div class="col-12">
+                    <h2>
+                        Faktoriális számoló
+                    </h2>
+                    <h5>
+                        A matematikában egy n nemnegatív egész szám faktoriálisának az n-nél kisebb vagy egyenlő pozitív
+                        egész számok szorzatát nevezzük.
+                    </h5>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-12 col-md-3">
+                    <label for="faktInput">Kérek egy számot: </label>
+                </div>
+                <div class="col-12 col-md-3">
+                    <input type="number" class="form-control" id="faktInput">
+                </div>
+                <div class="col-12 col-md-6">
+                    max. 20
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12">
+                    <button class="btn btn-light" onclick="fakt()">Számolás</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-2">
+                    Eredmény:
+                </div>
+                <div class="col-12 col-md-10 ">
+                    <h4 id="faktOutput">
+
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="container d-none" id="szorzat">
+            <div class="row mb-3">
+                <div class="col-12">
+                    <h2>
+                        Szorzat számoló
+                    </h2>
+                    <h5>
+                        A szorzat számoló program egy adott szám összes pozitív osztójának szorzatát számolja ki.
+                    </h5>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-12 col-md-3">
+                    <label for="szorzatInput1">Kérek egy számot: </label>
+                </div>
+                <div class="col-12 col-md-3">
+                    <input type="number" class="form-control" id="szorzatInput1">
+                </div>
+                <div class="col-12 col-md-6">
+
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-12 col-md-3">
+                    <label for="szorzatInput2">Kérek még egy számot: </label>
+                </div>
+                <div class="col-12 col-md-3">
+                    <input type="number" class="form-control" id="szorzatInput2">
+                </div>
+                <div class="col-12 col-md-6">
+
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12">
+                    <button class="btn btn-light" onclick="szorzat()">Számolás</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-2">
+                    Eredmény:
+                </div>
+                <div class="col-12 col-md-10">
+                    <h4 id="szorzatOutput">
+
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="container d-none" id="haromszog">
+            <div class="row mb-3">
+                <div class="col-12">
+                    <h2>
+                        Heron-képlettel számolt terület
+                    </h2>
+                    <h5>
+                        A Heron-képlettel számolt terület program egy háromszög területét számolja ki a háromszög
+                        oldalainak ismeretében.
+                    </h5>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-12 col-md-3">
+                    <label for="haromszogInput1">Háromszög egyik oldala: </label>
+                </div>
+                <div class="col-12 col-md-3">
+                    <input type="number" class="form-control" id="haromszogInput1">
+                </div>
+                <div class="col-12 col-md-6">
+
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-12 col-md-3">
+                    <label for="haromszogInput2">Háromszög másik oldala: </label>
+                </div>
+                <div class="col-12 col-md-3">
+                    <input type="number" class="form-control" id="haromszogInput2">
+                </div>
+                <div class="col-12 col-md-6">
+
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-12 col-md-3">
+                    <label for="haromszogInput3">Háromszög harmadik oldala: </label>
+                </div>
+                <div class="col-12 col-md-3">
+                    <input type="number" class="form-control" id="haromszogInput3">
+                </div>
+                <div class="col-12 col-md-6">
+
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12">
+                    <button class="btn btn-light" onclick="haromszog()">Számolás</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-2">
+                    Eredmény:
+                </div>
+                <div class="col-12 col-md-10">
+                    <h4 id="haromszogOutput">
+
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="container d-none" id="random">
+            <div class="row mb-3">
+                <div class="col-12">
+                    <h2>
+                        Random szám generátor
+                    </h2>
+                    <h5>
+                        Ha egy számot adsz meg, akkor a program generál egy véletlenszámot 0 és a megadott szám között.
+                    </h5>
+                    <h5>
+                        Ha két számot adsz meg, akkor a program generál egy véletlenszámot a két szám között.
+                    </h5>
+                    <h5>
+                        Ha három számot adsz meg, akkor a program generál egy véletlenszámot a két szám között a
+                        harmadik szám többszörösei közül.
+                    </h5>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-12 col-md-3">
+                    <label for="randomInput1">Kérek egy számot: </label>
+                </div>
+                <div class="col-12 col-md-3">
+                    <input type="number" class="form-control" id="randomInput1">
+                </div>
+                <div class="col-12 col-md-6">
+
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-12 col-md-3">
+                    <label for="randomInput2">Kérek még egy számot: </label>
+                </div>
+                <div class="col-12 col-md-3">
+                    <input type="number" class="form-control" id="randomInput2">
+                </div>
+                <div class="col-12 col-md-6">
+
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-12 col-md-3">
+                    <label for="randomInput3">Kérek egy harmadik számot: </label>
+                </div>
+                <div class="col-12 col-md-3">
+                    <input type="number" class="form-control" id="randomInput3">
+                </div>
+                <div class="col-12 col-md-6">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12">
+                    <button class="btn btn-light" onclick="random()">Generálás</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-2">
+                    Eredmény:
+                </div>
+                <div class="col-12 col-md-10">
+                    <h4 id="randomOutput">
+
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="container d-none" id="lorem">
+            <div class="row mb-3">
+                <div class="col-12">
+                    <h2>
+                        Lorem ipsum generátor
+                    </h2>
+                    <h5>
+                        A Lorem ipsum generátor program egy adott számú Lorem ipsum mondatot generál.
+                    </h5>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-12 col-md-3">
+                    <label for="loremInput">Kérek egy számot: </label>
+                </div>
+                <div class="col-12 col-md-3">
+                    <input type="number" class="form-control" id="loremInput">
+                </div>
+                <div class="col-12 col-md-6">
+
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12">
+                    <button class="btn btn-light" onclick="lorem()">Generálás</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-2">
+                    Eredmény:
+                </div>
+                <div class="col-12 col-md-10">
+                    <h4 id="loremOutput">
+
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="row fixed-bottom bg-light" id="footer">
+            <div class="col-12">
+                <footer>
+                    <p class="m-4">
+                        Holczer Mátyás 13.c
+                    </p>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
