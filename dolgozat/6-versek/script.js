@@ -78,18 +78,16 @@ function jobb(adatok) {
         let elsoVersszak = "Nincs szöveg"
         if (e.versszakok != null) {
             elsoVersszak = e.versszakok.split(' \n ')[0];
-            console.log(elsoVersszak)
             if (elsoVersszak.includes("/")) {
-                elsoVersszak.trim().replaceAll("/", "\n\r")
-                console.log("van benne /")
+                elsoVersszak = elsoVersszak.replaceAll("/", "\n")
             }
         }
         vissza += `<div class="p-2 m-2 bg-light rounded-3">
-            <h4>
+            <h4 class="cim">
                 ${e.cim}
             </h4>
             <p style="white-space: pre-line;">${elsoVersszak}</p>
-            <i>
+            <i class="nev">
                 ${e.kolto_nev}
             </i>
         </div>`;
@@ -107,17 +105,16 @@ function fejlec() {
                 if (e.versszakok != null) {
                     elsoVersszak = e.versszakok.split(' \n ')[0];
                     if (elsoVersszak.includes("/")) {
-                        elsoVersszak.replaceAll("/", "\n\r")
-                        console.log("van benne /")
+                        elsoVersszak = elsoVersszak.replaceAll("/", "\n")
                     }
                 }
                 vissza += `<div class="p-2 m-2 bg-light rounded-3">
             <p style="white-space: pre-line;">„${elsoVersszak}”</p>
-            <i>
+            <i class="cim">
                 ${e.kolto_nev}: 
                 ${e.cim},
             </i>
-            <span>
+            <span class="ev">
                 ${e.megjelenes_eve}
             </span>
         </div>`;
@@ -169,7 +166,7 @@ function koltoClick(id) {
             // Az alap adatok összeállítása (életrajz + dátumok)
             let vissza = `
             <div class="p-2 m-2 bg-light rounded-3">
-                <h2>${e.nev}</h2>
+                <h2 class="nev">${e.nev}</h2>
                 <p>${e.eletrajz}</p>
                 <p>Született: ${e.szuletesi_datum}, ${e.szuletesi_hely}</p>
                 <p>Elhunyt: ${e.halalozi_datum}, ${e.halalozi_hely}</p>

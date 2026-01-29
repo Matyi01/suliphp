@@ -2,3 +2,31 @@ body {
     background: #2A7B9B;
     background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
 }
+
+.cim {
+    font-family: "sajat1";
+
+}
+
+.kolto {
+    font-family: "sajat2";
+}
+
+.ev {
+    font-family: "sajat3";
+}
+
+@font-face {
+    font-family: "sajat1";
+    src: url(/dolgozat/6-versek/zenitha_classic/ZenithaClassic_PERSONAL_USE_ONLY.otf);
+}
+
+@font-face {
+    font-family: "sajat2";
+    src: url(/dolgozat/6-versek/irish_penny/IrishPenny.ttf);
+}
+
+@font-face {
+    font-family: "sajat3";
+    src: url(/dolgozat/6-versek/newyork/NewYork\ PERSONAL\ USE.otf);
+}
