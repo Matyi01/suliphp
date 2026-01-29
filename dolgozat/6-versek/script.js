@@ -75,13 +75,20 @@ function bal(adatok) {
 function jobb(adatok) {
     vissza = "";
     adatok.forEach(e => {
+        let elsoVersszak = "Nincs szöveg"
+        if (e.versszakok != null) {
+            elsoVersszak = e.versszakok.split(' \n ')[0];
+            console.log(elsoVersszak)
+            if (elsoVersszak.includes("/")) {
+                elsoVersszak.trim().replaceAll("/", "\n\r")
+                console.log("van benne /")
+            }
+        }
         vissza += `<div class="p-2 m-2 bg-light rounded-3">
             <h4>
                 ${e.cim}
             </h4>
-            <p>
-                ${e.versszakok}
-            </p>
+            <p style="white-space: pre-line;">${elsoVersszak}</p>
             <i>
                 ${e.kolto_nev}
             </i>
@@ -96,12 +103,16 @@ function fejlec() {
         .then(data => {
             vissza = "";
             data.forEach(e => {
+                let elsoVersszak = "Nincs szöveg"
+                if (e.versszakok != null) {
+                    elsoVersszak = e.versszakok.split(' \n ')[0];
+                    if (elsoVersszak.includes("/")) {
+                        elsoVersszak.replaceAll("/", "\n\r")
+                        console.log("van benne /")
+                    }
+                }
                 vissza += `<div class="p-2 m-2 bg-light rounded-3">
-            <p>
-                „
-                ${e.versszakok}
-                ”
-            </p>
+            <p style="white-space: pre-line;">„${elsoVersszak}”</p>
             <i>
                 ${e.kolto_nev}: 
                 ${e.cim},
@@ -115,6 +126,7 @@ function fejlec() {
         });
 }
 
+/*
 function koltoClick(id) {
     fetch("kolto/" + id)
         .then(response => response.json())
@@ -142,5 +154,67 @@ function koltoClick(id) {
             document.getElementById("jobb").innerHTML = vissza
         });
 }
+        */
 
 setInterval(fejlec, 30000);
+
+
+
+function koltoClick(id) {
+    fetch("kolto/" + id)
+        .then((response) => response.json())
+        .then((data) => {
+            let e = data[0];
+
+            // Az alap adatok összeállítása (életrajz + dátumok)
+            let vissza = `
+            <div class="p-2 m-2 bg-light rounded-3">
+                <h2>${e.nev}</h2>
+                <p>${e.eletrajz}</p>
+                <p>Született: ${e.szuletesi_datum}, ${e.szuletesi_hely}</p>
+                <p>Elhunyt: ${e.halalozi_datum}, ${e.halalozi_hely}</p>
+                <hr>
+                <h5>Versei:</h5>
+                <div id="vers-lista"></div>
+            </div>`;
+
+            document.getElementById("jobb").innerHTML = vissza;
+
+            // Versek lekérése és szűrése a név alapján
+            fetch("versek/100")
+                .then(res => res.json())
+                .then(versek => {
+                    let versekHtml = "";
+                    versek.forEach(v => {
+                        if (v.kolto_nev == e.nev) {
+                            versekHtml += `
+                                <div class="p-1">
+                                    <span style="cursor:pointer; text-decoration:underline" onclick="mutatVers(${v.vers_id})">
+                                        ${v.cim}
+                                    </span>
+                                    <div id="vers-szoveg-${v.vers_id}" style="display:none; padding:10px; font-style:italic; color:grey">
+                                        </div>
+                                </div>`;
+                        }
+                    });
+                    document.getElementById("vers-lista").innerHTML = versekHtml;
+                });
+        });
+}
+
+function mutatVers(id) {
+    let div = document.getElementById("vers-szoveg-" + id);
+
+    if (div.style.display == "block") {
+        div.style.display = "none";
+    } else {
+        fetch("vers/" + id)
+            .then(response => response.json())
+            .then(data => {
+                let v = data[0];
+                let nyers = v.versszakok ? String(v.versszakok) : "Nincs szöveg";
+                div.innerHTML = nyers.split("\n").join("<br>");
+                div.style.display = "block";
+            });
+    }
+}

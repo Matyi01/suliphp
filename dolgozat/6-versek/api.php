@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
                 v.megjelenes_eve,
                 k.nev AS kolto_nev,
                 m.megnevezes AS mufaj,
-                GROUP_CONCAT(vs.tartalom ORDER BY vs.sorszam SEPARATOR '\n') AS versszakok
+                GROUP_CONCAT(vs.tartalom ORDER BY vs.sorszam SEPARATOR ' \n ') AS versszakok
             FROM versek v
             JOIN koltok k ON v.kolto_id = k.id
             LEFT JOIN mufajok m ON v.mufaj_id = m.id
@@ -74,7 +74,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
                 v.megjelenes_eve,
                 k.nev AS kolto_nev,
                 m.megnevezes AS mufaj,
-                GROUP_CONCAT(vs.tartalom ORDER BY vs.sorszam SEPARATOR '\n') AS versszakok
+                GROUP_CONCAT(vs.tartalom ORDER BY vs.sorszam SEPARATOR ' \n ') AS versszakok
             FROM versek v
             JOIN koltok k ON v.kolto_id = k.id
             LEFT JOIN mufajok m ON v.mufaj_id = m.id
